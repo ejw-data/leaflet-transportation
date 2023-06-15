@@ -33,7 +33,12 @@ let overlays = {
 L.control.layers(null, overlays, {collapsed:false}).addTo(map);
 
 
-d3.json("./static/data/city_locations_records.json").then(data => {
+// Original file path
+// d3.json("./static/data/city_locations_records.json").then(data => {
+
+// Updated file path
+d3.json("/api/v1.0/population/2022").then(data => {
+
     console.log(data)
 
     for (let i = 0; i < data.length; i++ ){
@@ -55,8 +60,11 @@ d3.json("./static/data/city_locations_records.json").then(data => {
     }
 });
 
+// Original path of data
+// d3.json("./static/data/city_locations_records.json").then(data => {
 
-d3.json("./static/data/city_locations_records.json").then(data => {
+// UPdated path of data
+d3.json("/api/v1.0/population/2022").then(data => {    
     
     let city_list = data.map(i => i.City);
 
