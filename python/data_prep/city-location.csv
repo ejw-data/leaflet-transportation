@@ -1,0 +1,807 @@
+,Rank,Geographic Area,City,State,June2020,2020,2021,2022,long,lat
+0,1,"New York city, New York",New York,New York,8804194,8740647,8459001,8335897,-74.0060152,40.7127281
+1,2,"Los Angeles city, California",Los Angeles,California,3898767,3895836,3837986,3822238,-118.242766,34.0536909
+2,3,"Chicago city, Illinois",Chicago,Illinois,2746352,2740076,2698029,2665039,-87.6244212,41.8755616
+3,4,"Houston city, Texas",Houston,Texas,2301572,2299867,2291655,2302878,-95.3676974,29.7589382
+4,5,"Phoenix city, Arizona",Phoenix,Arizona,1608190,1612337,1625356,1644409,-112.074141,33.4484367
+5,6,"Philadelphia city, Pennsylvania",Philadelphia,Pennsylvania,1603799,1600600,1589480,1567258,-75.1635262,39.9527237
+6,7,"San Antonio city, Texas",San Antonio,Texas,1434367,1439225,1454020,1472909,-98.4951405,29.4246002
+7,8,"San Diego city, California",San Diego,California,1386960,1386872,1374484,1381162,-117.1627728,32.7174202
+8,9,"Dallas city, Texas",Dallas,Texas,1304317,1303641,1290711,1299544,-96.7968559,32.7762719
+9,10,"Austin city, Texas",Austin,Texas,961900,965768,969343,974447,-97.7436995,30.2711286
+10,11,"Jacksonville city, Florida",Jacksonville,Florida,949616,951707,956911,971319,-81.655651,30.3321838
+11,12,"San Jose city, California",San Jose,California,1013221,1009830,981466,971233,-121.890591,37.3361663
+12,13,"Fort Worth city, Texas",Fort Worth,Texas,918937,923576,937539,956709,-97.3327459,32.753177
+13,14,"Columbus city, Ohio",Columbus,Ohio,905839,906266,903051,907971,-83.0007065,39.9622601
+14,15,"Charlotte city, North Carolina",Charlotte,North Carolina,874607,875115,882503,897720,-80.8430827,35.2272086
+15,16,"Indianapolis city (balance), Indiana",Indianapolis,Indiana,887661,887153,882420,880621,-86.1583502,39.7683331
+16,17,"San Francisco city, California",San Francisco,California,873959,870393,811253,808437,-122.419906,37.7790262
+17,18,"Seattle city, Washington",Seattle,Washington,737018,740520,731507,749256,-122.330062,47.6038321
+18,19,"Denver city, Colorado",Denver,Colorado,715538,717556,711323,713252,-104.984862,39.7392364
+19,20,"Oklahoma City city, Oklahoma",Oklahoma City,Oklahoma,681084,683024,688361,694800,-97.5170536,35.4729886
+20,21,"Nashville-Davidson metropolitan government (balance), Tennessee",Nashville,Tennessee,689454,689725,678134,683622,-86.7742984,36.1622767
+21,22,"El Paso city, Texas",El Paso,Texas,678697,679040,678475,677456,-106.4882345,31.7550511
+22,23,"Washington city, District of Columbia",Washington,District of Columbia,689546,670868,668791,671803,-77.0365427,38.8950368
+23,24,"Las Vegas city, Nevada",Las Vegas,Nevada,644866,646737,650770,656274,-115.148516,36.1672559
+24,25,"Boston city, Massachusetts",Boston,Massachusetts,675632,671570,654537,650706,-71.060511,42.3554334
+25,26,"Portland city, Oregon",Portland,Oregon,652518,653294,643375,635067,-122.674194,45.5202471
+26,27,"Louisville/Jefferson County metro government (balance), Kentucky",Louisville,Kentucky,632550,632441,627709,624444,-85.759407,38.2542376
+27,28,"Memphis city, Tennessee",Memphis,Tennessee,631539,631168,625982,621056,-90.0517638,35.1460249
+28,29,"Detroit city, Michigan",Detroit,Michigan,639115,637342,628167,620376,-83.0466403,42.3315509
+29,30,"Baltimore city, Maryland",Baltimore,Maryland,585693,583139,576981,569931,-76.610759,39.2908816
+30,31,"Milwaukee city, Wisconsin",Milwaukee,Wisconsin,577225,576511,565840,563305,-87.922497,43.0349931
+31,32,"Albuquerque city, New Mexico",Albuquerque,New Mexico,564581,564855,563108,561008,-106.650985,35.0841034
+32,33,"Tucson city, Arizona",Tucson,Arizona,542656,542676,541234,546574,-110.9748477,32.2228765
+33,34,"Fresno city, California",Fresno,California,542252,542447,543910,545567,-119.7848307,36.7394421
+34,35,"Sacramento city, California",Sacramento,California,524924,525668,525951,528001,-121.493895,38.5810606
+35,36,"Mesa city, Arizona",Mesa,Arizona,504300,505863,509339,512498,-111.8314552,33.4151005
+36,37,"Kansas City city, Missouri",Kansas City,Missouri,507971,508183,508949,509297,-94.5781416,39.100105
+37,38,"Atlanta city, Georgia",Atlanta,Georgia,498722,499868,492667,499127,-84.3902644,33.7489924
+38,39,"Colorado Springs city, Colorado",Colorado Springs,Colorado,479016,480292,483328,486248,-104.825348,38.8339578
+39,40,"Omaha city, Nebraska",Omaha,Nebraska,491743,492601,488508,485153,-95.9383758,41.2587459
+40,41,"Raleigh city, North Carolina",Raleigh,North Carolina,467762,464320,469892,476587,-78.6390989,35.7803977
+41,42,"Virginia Beach city, Virginia",Virginia Beach,Virginia,459471,459646,458680,455618,-75.9774183,36.8529841
+42,43,"Long Beach city, California",Long Beach,California,466775,465448,454334,451307,-118.191604,33.7690164
+43,44,"Miami city, Florida",Miami,Florida,442260,442799,441999,449514,-80.19362,25.7741728
+44,45,"Oakland city, California",Oakland,California,440660,440873,436291,430553,-122.271356,37.8044557
+45,46,"Minneapolis city, Minnesota",Minneapolis,Minnesota,429985,430684,424635,425096,-93.2654692,44.9772995
+46,47,"Tulsa city, Oklahoma",Tulsa,Oklahoma,413123,413603,412770,411867,-95.9927516,36.1563122
+47,48,"Bakersfield city, California",Bakersfield,California,404440,405181,409079,410647,-119.0194639,35.3738712
+48,49,"Tampa city, Florida",Tampa,Florida,384661,387908,392893,398173,-82.458444,27.9477595
+49,50,"Wichita city, Kansas",Wichita,Kansas,397547,398003,396679,396192,-97.3375448,37.6922361
+50,51,"Arlington city, Texas",Arlington,Texas,394257,394212,393278,394602,-97.1071186,32.7355816
+51,52,"Aurora city, Colorado",Aurora,Colorado,386324,386749,390370,393537,-104.830994,39.7405111
+52,53,"New Orleans city, Louisiana",New Orleans,Louisiana,383998,383218,377063,369749,-90.0782127,29.9759983
+53,54,"Cleveland city, Ohio",Cleveland,Ohio,372632,371817,365389,361607,-81.6936772,41.4996574
+54,55,"Anaheim city, California",Anaheim,California,346825,347105,346174,344461,-117.911732,33.8347516
+55,56,"Urban Honolulu CDP, Hawaii",Honolulu,Hawaii,350966,348387,346594,343421,-157.855676,21.304547
+56,57,"Henderson city, Nevada",Henderson,Nevada,317310,319039,322421,331415,-114.9826194,36.0301134
+57,58,"Stockton city, California",Stockton,California,320810,321023,322607,321819,-121.2907796,37.9577016
+58,59,"Riverside city, California",Riverside,California,315014,315469,313912,320764,-117.3742389,33.9824949
+59,60,"Lexington-Fayette urban county, Kentucky",Lexington,Kentucky,322567,322613,320473,320347,-84.4970393,38.0464066
+60,61,"Corpus Christi city, Texas",Corpus Christi,Texas,317863,318047,317828,316239,-97.4033191,27.7635302
+61,62,"Orlando city, Florida",Orlando,Florida,307683,307733,309854,316081,-81.3790304,28.5421109
+62,63,"Irvine city, California",Irvine,California,307665,308974,305096,313685,-117.8259819,33.6856969
+63,64,"Cincinnati city, Ohio",Cincinnati,Ohio,309561,309574,308685,309513,-84.5124602,39.1014537
+64,65,"Santa Ana city, California",Santa Ana,California,310555,309921,308771,308189,-117.8732213,33.7494951
+65,66,"Newark city, New Jersey",Newark,New Jersey,311552,310613,307312,305344,-74.1723667,40.735657
+66,67,"St. Paul city, Minnesota",St. Paul,Minnesota,311518,311130,307150,303176,-93.0931028,44.9497487
+67,68,"Pittsburgh city, Pennsylvania",Pittsburgh,Pennsylvania,302958,302762,305441,302898,-79.9900861,40.4416941
+68,69,"Greensboro city, North Carolina",Greensboro,North Carolina,299101,296916,299225,301115,-79.7919754,36.0726355
+69,70,"Lincoln city, Nebraska",Lincoln,Nebraska,291105,291576,291476,292627,-96.7077751,40.8088861
+70,71,"Durham city, North Carolina",Durham,North Carolina,283588,284362,289177,291928,-78.9018053,35.996653
+71,72,"Plano city, Texas",Plano,Texas,285469,286388,288696,289547,-96.6925096,33.0136764
+72,73,"Anchorage municipality, Alaska",Anchorage,Alaska,291244,290866,288702,287145,-149.894852,61.2163129
+73,74,"Jersey City city, New Jersey",Jersey City,New Jersey,292754,291919,284642,286670,-74.047455,40.7215682
+74,75,"St. Louis city, Missouri",St. Louis,Missouri,301574,300483,293562,286578,-90.1910154,38.6280278
+75,76,"Chandler city, Arizona",Chandler,Arizona,276010,277327,279479,280711,-111.8411851,33.3062031
+76,77,"North Las Vegas city, Nevada",North Las Vegas,Nevada,259520,261191,271124,280543,-115.121584,36.2005843
+77,78,"Chula Vista city, California",Chula Vista,California,275500,276041,277008,279170,-117.0841955,32.6400541
+78,79,"Buffalo city, New York",Buffalo,New York,278301,277620,277845,276486,-78.8783922,42.8867166
+79,80,"Gilbert town, Arizona",Gilbert,Arizona,267932,269157,273205,275346,-111.789037,33.3527632
+80,81,"Reno city, Nevada",Reno,Nevada,264147,264965,270025,273448,-119.8126581,39.5261206
+81,82,"Madison city, Wisconsin",Madison,Wisconsin,269769,270313,267871,272903,-89.3837613,43.074761
+82,83,"Fort Wayne city, Indiana",Fort Wayne,Indiana,263914,264361,266372,267927,-85.1386015,41.0799898
+83,84,"Toledo city, Ohio",Toledo,Ohio,270880,270266,268744,266301,-83.5378173,41.6529143
+84,85,"Lubbock city, Texas",Lubbock,Texas,257157,257974,261199,263930,-101.8470215,33.5855677
+85,86,"St. Petersburg city, Florida",St. Petersburg,Florida,258356,258997,259083,261256,-82.6695085,27.7703796
+86,87,"Laredo city, Texas",Laredo,Texas,255212,255479,255895,256187,-99.497352,27.5236998
+87,88,"Irving city, Texas",Irving,Texas,256687,256866,254561,254715,-96.9442177,32.8295183
+88,89,"Chesapeake city, Virginia",Chesapeake,Virginia,249415,249803,251739,252488,-76.2466798,36.7183708
+89,90,"Glendale city, Arizona",Glendale,Arizona,248374,248904,249893,252136,-112.185994,33.5386858
+90,91,"Winston-Salem city, North Carolina",Winston-Salem,North Carolina,249562,249793,250922,251350,-80.2440518,36.0998131
+91,92,"Scottsdale city, Arizona",Scottsdale,Arizona,241339,241866,242780,243050,-111.926018,33.4942189
+92,93,"Garland city, Texas",Garland,Texas,246001,245450,242189,240854,-96.6388833,32.912624
+93,94,"Boise City city, Idaho",Boise City,Idaho,235712,236018,238021,236634,-116.200886,43.6166163
+94,95,"Norfolk city, Virginia",Norfolk,Virginia,238001,237738,235025,232995,-76.2863999,36.8448348
+95,96,"Port St. Lucie city, Florida",Port St. Lucie,Florida,204856,206808,217903,231790,-80.3503283,27.2939333
+96,97,"Spokane city, Washington",Spokane,Washington,228978,229187,229674,230160,-117.42351,47.6571934
+97,98,"Richmond city, Virginia",Richmond,Virginia,226618,227008,227602,229395,-77.43428,37.5385087
+98,99,"Fremont city, California",Fremont,California,230493,230194,226532,223871,-121.988571,37.5482697
+99,100,"Huntsville city, Alabama",Huntsville,Alabama,215052,216344,218672,221933,-86.5859011,34.729847
+100,101,"Tacoma city, Washington",Tacoma,Washington,219175,219693,219593,221776,-122.438329,47.2455013
+101,102,"Baton Rouge city, Louisiana",Baton Rouge,Louisiana,226916,226265,224076,221453,-91.1391153,30.4507936
+102,103,"Santa Clarita city, California",Santa Clarita,California,228679,228065,224320,221345,-118.5538088,34.4127963
+103,104,"San Bernardino city, California",San Bernardino,California,222068,222028,221242,220328,-117.28946,34.1081621
+104,105,"Hialeah city, Florida",Hialeah,Florida,223123,222390,220980,220292,-80.2781057,25.8575963
+105,106,"Frisco city, Texas",Frisco,Texas,200536,202742,211081,219587,-96.8236116,33.1506744
+106,107,"Modesto city, California",Modesto,California,218467,218654,218948,218069,-120.9968782,37.6390972
+107,108,"Cape Coral city, Florida",Cape Coral,Florida,193994,195408,203975,216992,-81.9806771,26.6059432
+108,109,"Fontana city, California",Fontana,California,208387,208620,210540,212475,-117.435048,34.0922335
+109,110,"Moreno Valley city, California",Moreno Valley,California,208640,209107,211564,211924,-117.2305944,33.937517
+110,111,"Des Moines city, Iowa",Des Moines,Iowa,214125,213814,212538,211034,-93.6046655,41.5910323
+111,112,"Rochester city, New York",Rochester,New York,211321,211167,211207,209352,-77.615214,43.157285
+112,113,"Fayetteville city, North Carolina",Fayetteville,North Carolina,208470,208104,209669,208873,-78.878292,35.0525759
+113,114,"Yonkers city, New York",Yonkers,New York,211585,210989,209942,208121,-73.8987469,40.9312099
+114,115,"McKinney city, Texas",McKinney,Texas,195326,197474,203427,207507,-96.6154471,33.1976496
+115,116,"Worcester city, Massachusetts",Worcester,Massachusetts,206519,205063,205660,205319,-71.8018877,42.2625621
+116,117,"Salt Lake City city, Utah",Salt Lake City,Utah,199711,200658,201165,204657,-111.886797,40.7596198
+117,118,"Little Rock city, Arkansas",Little Rock,Arkansas,202562,202622,202230,202864,-92.2896267,34.7465071
+118,119,"Columbus city, Georgia",Columbus,Georgia,206922,206998,205024,202616,-84.9880449,32.4610708
+119,120,"Augusta-Richmond County consolidated government (balance), Georgia",Augusta,Georgia,202080,202000,200838,202096,-81.9748429,33.4709714
+120,121,"Sioux Falls city, South Dakota",Sioux Falls,South Dakota,192700,193409,196802,202078,-96.7307737,43.5488256
+121,122,"Grand Prairie city, Texas",Grand Prairie,Texas,196138,196278,197427,201843,-96.9977846,32.7459645
+122,123,"Tallahassee city, Florida",Tallahassee,Florida,196171,197926,200289,201731,-84.2809332,30.4380832
+123,124,"Amarillo city, Texas",Amarillo,Texas,200377,200507,200852,201291,-101.833824,35.2072185
+124,125,"Oxnard city, California",Oxnard,California,202067,202244,202054,200415,-119.1803818,34.1976308
+125,126,"Peoria city, Arizona",Peoria,Arizona,190966,191961,194973,197866,-112.237294,33.5806115
+126,127,"Overland Park city, Kansas",Overland Park,Kansas,197249,197722,197597,197726,-94.6851702,38.9742502
+127,128,"Montgomery city, Alabama",Montgomery,Alabama,200586,200024,198469,196986,-86.3006485,32.3669656
+128,129,"Birmingham city, Alabama",Birmingham,Alabama,200646,200329,197823,196910,-86.8024326,33.5206824
+129,130,"Grand Rapids city, Michigan",Grand Rapids,Michigan,198893,198698,197751,196908,-85.6678639,42.9632405
+130,131,"Knoxville city, Tennessee",Knoxville,Tennessee,190728,191478,193598,195889,-83.9210261,35.9603948
+131,132,"Vancouver city, Washington",Vancouver,Washington,190888,191259,192759,194512,-122.6744557,45.6306954
+132,133,"Huntington Beach city, California",Huntington Beach,California,198723,198410,196463,194310,-118.0000166,33.6783336
+133,134,"Providence city, Rhode Island",Providence,Rhode Island,190932,190728,190081,189563,-71.4128343,41.8239891
+134,135,"Brownsville city, Texas",Brownsville,Texas,186717,186990,187957,189382,-97.4890879,25.9140277
+135,136,"Glendale city, California",Glendale,California,196534,195995,192272,189221,-118.2478471,34.1469416
+136,137,"Akron city, Ohio",Akron,Ohio,190416,190130,188550,188509,-81.518485,41.083064
+137,138,"Tempe city, Arizona",Tempe,Arizona,180576,181680,181040,185950,-111.9400164,33.4255117
+138,139,"Newport News city, Virginia",Newport News,Virginia,186243,186033,184764,184306,-76.42977,36.9775016
+139,140,"Chattanooga city, Tennessee",Chattanooga,Tennessee,181057,181560,181163,184086,-85.3094883,35.0457219
+140,141,"Mobile city, Alabama",Mobile,Alabama,187048,186611,185017,183289,-88.0848929,30.6867339
+141,142,"Fort Lauderdale city, Florida",Fort Lauderdale,Florida,182775,182880,182011,183146,-80.1433786,26.1223084
+142,143,"Cary town, North Carolina",Cary,North Carolina,174763,175510,177463,180388,-78.7812081,35.7882893
+143,144,"Shreveport city, Louisiana",Shreveport,Louisiana,187587,186827,183328,180153,-93.7559378,32.4707862
+144,145,"Ontario city, California",Ontario,California,175266,175852,177845,179061,-117.6484304,34.065846
+145,146,"Eugene city, Oregon",Eugene,Oregon,177195,177389,177953,177923,-123.0950506,44.0505054
+146,147,"Aurora city, Illinois",Aurora,Illinois,180526,180197,179336,177866,-88.3147539,41.7571701
+147,148,"Elk Grove city, California",Elk Grove,California,176141,176732,178283,177558,-121.3716178,38.4087993
+148,149,"Salem city, Oregon",Salem,Oregon,175472,175931,178105,177487,-123.033121,44.9391565
+149,150,"Santa Rosa city, California",Santa Rosa,California,178128,177835,177149,177181,-122.7141049,38.4404925
+150,151,"Clarksville city, Tennessee",Clarksville,Tennessee,166739,167499,170912,176974,-87.3588703,36.5277607
+151,152,"Rancho Cucamonga city, California",Rancho Cucamonga,California,174624,174571,175169,176336,-117.5751735,34.1033192
+152,153,"Oceanside city, California",Oceanside,California,174048,173914,172919,172199,-117.3794834,33.1958696
+153,154,"Springfield city, Missouri",Springfield,Missouri,169168,169164,169255,170067,-93.2946576,37.1968298
+154,155,"Pembroke Pines city, Florida",Pembroke Pines,Florida,171182,171062,169635,169876,-80.223937,26.0031465
+155,156,"Garden Grove city, California",Garden Grove,California,171973,171759,170511,169254,-117.9463717,33.7746292
+156,157,"Fort Collins city, Colorado",Fort Collins,Colorado,169827,169979,169266,169249,-105.0668085,40.5508527
+157,158,"Lancaster city, California",Lancaster,California,173511,173040,170074,169185,-118.1366153,34.6981064
+158,159,"Palmdale city, California",Palmdale,California,169415,168863,165452,163463,-118.1171108,34.5793131
+159,160,"Murfreesboro city, Tennessee",Murfreesboro,Tennessee,152775,153737,156675,162398,-86.3921096,35.8460396
+160,161,"Salinas city, California",Salinas,California,163542,163296,163076,161020,-121.655037,36.6744117
+161,162,"Corona city, California",Corona,California,157154,157549,159782,159567,-117.5664449,33.8752945
+162,163,"Killeen city, Texas",Killeen,Texas,153143,153726,156959,159172,-97.727796,31.1171441
+163,164,"Hayward city, California",Hayward,California,162948,162602,158445,156754,-122.080796,37.6688205
+164,165,"Paterson city, New Jersey",Paterson,New Jersey,159759,159153,157905,156661,-74.171811,40.9167654
+165,166,"Macon-Bibb County, Georgia",Macon,Georgia,157347,157025,155985,156197,-83.6324022,32.8406946
+166,167,"Lakewood city, Colorado",Lakewood,Colorado,155975,156236,157109,156120,-105.0846694,39.7085736
+167,168,"Alexandria city, Virginia",Alexandria,Virginia,159461,159125,155203,155525,-77.0470229,38.8051095
+168,169,"Roseville city, California",Roseville,California,147796,148486,152095,154817,-121.2880059,38.7521235
+169,170,"Surprise city, Arizona",Surprise,Arizona,143158,144395,149325,154198,-112.368018,33.6292271
+170,171,"Springfield city, Massachusetts",Springfield,Massachusetts,155931,155407,154948,154064,-72.5886727,42.1018764
+171,172,"Charleston city, South Carolina",Charleston,South Carolina,150288,150742,151783,153672,-79.9399309,32.7884363
+172,173,"Kansas City city, Kansas",Kansas City,Kansas,156606,156287,154789,153345,-94.626497,39.1134562
+173,174,"Sunnyvale city, California",Sunnyvale,California,155629,155264,152030,153091,-122.036349,37.3688301
+174,175,"Bellevue city, Washington",Bellevue,Washington,151864,151766,149791,152767,-122.192337,47.6144219
+175,176,"Hollywood city, Florida",Hollywood,Florida,153036,152792,152427,152650,-80.1494901,26.0112014
+176,177,"Denton city, Texas",Denton,Texas,139861,141097,147208,150353,-97.1330516,33.2150386
+177,178,"Escondido city, California",Escondido,California,151074,151139,150679,150270,-117.0814849,33.1216751
+178,179,"Joliet city, Illinois",Joliet,Illinois,150374,150221,150550,150033,-88.0840212,41.5263603
+179,180,"Naperville city, Illinois",Naperville,Illinois,149559,149416,149453,149936,-88.1479278,41.7728699
+180,181,"Bridgeport city, Connecticut",Bridgeport,Connecticut,148644,148165,148571,148377,-73.2048348,41.1670412
+181,182,"Savannah city, Georgia",Savannah,Georgia,147768,147442,146438,148004,-81.0951271,32.0564572
+182,183,"Mesquite city, Texas",Mesquite,Texas,150227,149666,147821,147899,-96.599472,32.7666103
+183,184,"Pasadena city, Texas",Pasadena,Texas,151897,151359,148674,147662,-95.2092076,29.6910753
+184,185,"Rockford city, Illinois",Rockford,Illinois,148662,148407,147595,146713,-89.093966,42.2713945
+185,186,"Pomona city, California",Pomona,California,151445,151033,147125,146017,-117.7517496,34.0553813
+186,187,"Jackson city, Mississippi",Jackson,Mississippi,153705,152992,149727,145995,-90.1830408,32.2998686
+187,188,"Olathe city, Kansas",Olathe,Kansas,141283,141575,143427,145616,-94.81887,38.8838856
+188,189,"Gainesville city, Florida",Gainesville,Florida,141079,142203,143955,145214,-82.3249846,29.6519684
+189,190,"McAllen city, Texas",McAllen,Texas,142195,142395,143882,144579,-98.2300605,26.204114
+190,191,"Syracuse city, New York",Syracuse,New York,148608,146792,145823,144451,-76.1474244,43.0481221
+191,192,"Waco city, Texas",Waco,Texas,140119,140534,142336,143984,-97.1466695,31.549333
+192,193,"Visalia city, California",Visalia,California,141574,141859,142795,143966,-119.292058,36.3302284
+193,194,"Thornton city, Colorado",Thornton,Colorado,141862,142176,142934,143282,-104.985181,39.8695516
+194,195,"Torrance city, California",Torrance,California,147071,146589,143509,141126,-118.3406288,33.8358492
+195,196,"Fullerton city, California",Fullerton,California,143638,143419,140559,140541,-117.9294165,33.8708215
+196,197,"Columbia city, South Carolina",Columbia,South Carolina,136803,136186,136394,139698,-81.0343313,34.0007493
+197,198,"New Haven city, Connecticut",New Haven,Connecticut,134024,133959,138731,138915,-72.9250518,41.3082138
+198,199,"Hampton city, Virginia",Hampton,Virginia,137158,137276,137847,138037,-76.3452057,37.0300969
+199,200,"Miramar city, Florida",Miramar,Florida,134706,134502,135380,137228,-80.2322706,25.9873137
+200,201,"Victorville city, California",Victorville,California,134802,134632,135921,137221,-117.2911565,34.5361067
+201,202,"Warren city, Michigan",Warren,Michigan,139398,139101,138272,137107,-83.0062746,42.4932575
+202,203,"West Valley City city, Utah",West Valley City,Utah,140239,139967,139065,136650,-111.986821,40.6967254
+203,204,"Cedar Rapids city, Iowa",Cedar Rapids,Iowa,137723,137742,136872,136429,-91.6704053,41.9758872
+204,205,"Stamford city, Connecticut",Stamford,Connecticut,135451,135548,136688,136188,-73.5387341,41.0534302
+205,206,"Orange city, California",Orange,California,139902,139428,137295,136178,-117.850308,33.7872568
+206,207,"Dayton city, Ohio",Dayton,Ohio,137624,137484,136837,135944,-84.1916069,39.7589478
+207,208,"Midland city, Texas",Midland,Texas,132524,132876,131505,134444,-102.077948,31.9973662
+208,209,"Kent city, Washington",Kent,Washington,136609,136580,135182,134392,-122.2270272,47.3826903
+209,210,"Elizabeth city, New Jersey",Elizabeth,New Jersey,137310,136651,135543,134283,-74.2107006,40.6639916
+210,211,"Pasadena city, California",Pasadena,California,138719,138304,135932,134211,-118.1444779,34.1476452
+211,212,"Carrollton city, Texas",Carrollton,Texas,133432,133557,133569,133820,-96.8902816,32.9537349
+212,213,"Coral Springs city, Florida",Coral Springs,Florida,134396,134159,133141,133369,-80.2706044,26.271192
+213,214,"Sterling Heights city, Michigan",Sterling Heights,Michigan,134334,134112,133344,132567,-83.0302033,42.5803122
+214,215,"Fargo city, North Dakota",Fargo,North Dakota,125952,125979,129510,131444,-96.789821,46.877229
+215,216,"Lewisville city, Texas",Lewisville,Texas,125688,126428,127214,131215,-96.994174,33.046233
+216,217,"Meridian city, Idaho",Meridian,Idaho,117713,119405,125774,129736,-116.392326,43.6086295
+217,218,"Norman city, Oklahoma",Norman,Oklahoma,127991,128161,129070,129627,-97.4394816,35.2225717
+218,219,"Palm Bay city, Florida",Palm Bay,Florida,119752,120154,122952,129234,-80.6366144,27.9946969
+219,220,"Athens-Clarke County unified government (balance), Georgia",Athens,Georgia,127362,127243,127873,128561,-83.376398,33.9597677
+220,221,"Columbia city, Missouri",Columbia,Missouri,126233,126486,127550,128555,-92.3337366,38.951883
+221,222,"Abilene city, Texas",Abilene,Texas,125178,125404,126160,127385,-99.7475905,32.44645
+222,223,"Pearland city, Texas",Pearland,Texas,125815,125989,125926,126949,-95.2864299,29.5639758
+223,224,"Santa Clara city, California",Santa Clara,California,127861,127894,127958,126930,-121.955174,37.3541132
+224,225,"Round Rock city, Texas",Round Rock,Texas,119501,120531,124041,126697,-97.6788056,30.5085915
+225,226,"Topeka city, Kansas",Topeka,Kansas,126601,126419,126124,125449,-95.677556,39.049011
+226,227,"Allentown city, Pennsylvania",Allentown,Pennsylvania,125858,125722,125772,125094,-75.4712794,40.6022059
+227,228,"Clovis city, California",Clovis,California,120160,120660,123007,124556,-119.7029194,36.8252277
+228,229,"Simi Valley city, California",Simi Valley,California,126373,126335,126053,124398,-118.7538071,34.2677404
+229,230,"College Station city, Texas",College Station,Texas,120523,120763,122650,124319,-96.3071042,30.5955289
+230,231,"Thousand Oaks city, California",Thousand Oaks,California,126968,126770,126001,124265,-118.8375937,34.1705609
+231,232,"Vallejo city, California",Vallejo,California,126083,125886,124773,123564,-122.2566367,38.1040864
+232,233,"Concord city, California",Concord,California,125411,125256,124337,122625,-122.0335624,37.9768525
+233,234,"Rochester city, Minnesota",Rochester,Minnesota,121388,121565,121728,121878,-92.4630182,44.0234387
+234,235,"Arvada city, Colorado",Arvada,Colorado,124402,124394,123591,121581,-105.0811573,39.8005505
+235,236,"Lafayette city, Louisiana",Lafayette,Louisiana,121398,121445,121486,121389,-92.0298813,30.2043259
+236,237,"Independence city, Missouri",Independence,Missouri,123004,122974,122219,121202,-94.4137923,39.0924792
+237,238,"West Palm Beach city, Florida",West Palm Beach,Florida,117315,117492,117891,120932,-80.0532942,26.715364
+238,239,"Hartford city, Connecticut",Hartford,Connecticut,121018,120638,120867,120686,-72.6908547,41.764582
+239,240,"Wilmington city, North Carolina",Wilmington,North Carolina,115456,115756,117792,120324,-77.9447107,34.2257282
+240,241,"Lakeland city, Florida",Lakeland,Florida,112640,113894,117258,120071,-81.9498042,28.0394654
+241,242,"Billings city, Montana",Billings,Montana,117142,117205,117703,119960,-108.49607,45.7874957
+242,243,"Ann Arbor city, Michigan",Ann Arbor,Michigan,123872,123625,119070,119875,-83.7312291,42.2681569
+243,244,"Fairfield city, California",Fairfield,California,119872,119874,119835,119338,-122.039966,38.2493581
+244,245,"Berkeley city, California",Berkeley,California,124324,124206,114810,118950,-122.272863,37.8708393
+245,246,"Richardson city, Texas",Richardson,Texas,119464,119323,118149,118802,-96.7297206,32.9481789
+246,247,"North Charleston city, South Carolina",North Charleston,South Carolina,114839,115563,117586,118608,-79.9748103,32.8546197
+247,248,"Cambridge city, Massachusetts",Cambridge,Massachusetts,118395,118349,118082,118488,-71.1056157,42.3750997
+248,249,"Broken Arrow city, Oklahoma",Broken Arrow,Oklahoma,113556,113922,116356,117911,-95.7908195,36.0525993
+249,250,"Clearwater city, Florida",Clearwater,Florida,117387,117284,117093,117027,-82.8001026,27.9658533
+250,251,"West Jordan city, Utah",West Jordan,Utah,116962,117024,116544,116664,-111.9395211,40.6061337
+251,252,"Evansville city, Indiana",Evansville,Indiana,117291,117364,116670,115749,-87.5715641,37.970495
+252,253,"League City city, Texas",League City,Texas,114377,114679,115611,115418,-95.0949303,29.5074538
+253,254,"Antioch city, California",Antioch,California,115305,115251,114964,115264,-121.805789,38.0049214
+254,255,"Manchester city, New Hampshire",Manchester,New Hampshire,115653,115499,115173,115141,-71.4547891,42.9956397
+255,256,"High Point city, North Carolina",High Point,North Carolina,114117,114225,114676,115067,-80.0053176,35.9556924
+256,257,"Waterbury city, Connecticut",Waterbury,Connecticut,114455,114293,114998,115016,-73.0438362,41.5538091
+257,258,"Westminster city, Colorado",Westminster,Colorado,116315,116302,114798,114533,-105.0372046,39.8366528
+258,259,"Richmond city, California",Richmond,California,116432,116367,115731,114301,-122.347748,37.9357576
+259,260,"Carlsbad city, California",Carlsbad,California,114735,114896,115224,114160,-117.3505966,33.1580933
+260,261,"Las Cruces city, New Mexico",Las Cruces,New Mexico,111392,111699,112853,113888,-106.779807,32.3140354
+261,262,"Murrieta city, California",Murrieta,California,110953,111318,113006,113783,-117.2106564,33.560832
+262,263,"Lowell city, Massachusetts",Lowell,Massachusetts,115550,115366,114288,113608,-71.3085329,42.6414437
+263,264,"Provo city, Utah",Provo,Utah,115173,115102,114903,113523,-111.6587085,40.2337289
+264,265,"Springfield city, Illinois",Springfield,Illinois,114414,114264,113742,113273,-89.6439575,39.7990175
+265,266,"Elgin city, Illinois",Elgin,Illinois,114798,114604,114031,113177,-88.2810994,42.03726
+266,267,"Odessa city, Texas",Odessa,Texas,114452,114926,112191,112906,-102.367687,31.8457149
+267,268,"Lansing city, Michigan",Lansing,Michigan,112657,112554,112549,112537,-84.5553805,42.7337712
+268,269,"Pompano Beach city, Florida",Pompano Beach,Florida,112056,111954,111516,112302,-80.1247667,26.2378597
+269,270,"Beaumont city, Texas",Beaumont,Texas,115268,114980,113638,112089,-94.1018461,30.0860459
+270,271,"Temecula city, California",Temecula,California,109994,110013,110810,111752,-117.1473661,33.4946353
+271,272,"Gresham city, Oregon",Gresham,Oregon,114255,114466,113154,111621,-122.4309766,45.4997475
+272,273,"Allen city, Texas",Allen,Texas,104645,105537,107019,111551,-96.6705503,33.1031744
+273,274,"Pueblo city, Colorado",Pueblo,Colorado,111874,111891,111991,111456,-104.609141,38.2544472
+274,275,"Everett city, Washington",Everett,Washington,110602,110881,110958,111337,-122.2127011,47.9793437
+275,276,"South Fulton city, Georgia",South Fulton,Georgia,108064,108218,109325,111158,-84.6712292,33.5902659
+276,277,"Peoria city, Illinois",Peoria,Illinois,113176,112850,111870,111021,-89.5891008,40.6938609
+277,278,"Nampa city, Idaho",Nampa,Idaho,100310,101303,106525,110951,-116.559631,43.5737361
+278,279,"Tuscaloosa city, Alabama",Tuscaloosa,Alabama,99627,104214,109082,110602,-87.5675258,33.2095614
+279,280,"Miami Gardens city, Florida",Miami Gardens,Florida,111644,111481,111648,110497,-80.2025475,25.9798139
+280,281,"Santa Maria city, California",Santa Maria,California,109695,109742,109647,110125,-120.435857,34.9531295
+281,282,"Downey city, California",Downey,California,114358,113973,111570,109934,-118.1292846,33.9404441
+282,283,"Concord city, North Carolina",Concord,North Carolina,105318,105967,108029,109896,-80.5800049,35.4094178
+283,284,"San Buenaventura (Ventura) city, California",San Buenaventura (Ventura),California,110736,110518,110027,109527,-119.31101594866902,34.3640573
+284,285,"Costa Mesa city, California",Costa Mesa,California,111926,111797,110885,109521,-117.903317,33.6633386
+285,286,"Sugar Land city, Texas",Sugar Land,Texas,111032,110822,109584,109414,-95.6349463,29.6196787
+286,287,"Menifee city, California",Menifee,California,102526,103158,106365,109399,-117.1770437,33.6864432
+287,288,"Tyler city, Texas",Tyler,Texas,105984,106276,107353,109286,-95.3010624,32.3512601
+288,289,"Sparks city, Nevada",Sparks,Nevada,108457,108876,109681,109226,-119.7487235,39.5404679
+289,290,"Greeley city, Colorado",Greeley,Colorado,108791,109264,108631,109209,-104.7091322,40.4233142
+290,291,"Rio Rancho city, New Mexico",Rio Rancho,New Mexico,104039,104361,105944,108082,-106.6329806,35.2702448
+291,292,"Sandy Springs city, Georgia",Sandy Springs,Georgia,108068,108163,107344,107763,-84.3785379,33.9242688
+292,293,"Dearborn city, Michigan",Dearborn,Michigan,109961,109662,108736,107710,-83.1763145,42.3222599
+293,294,"Jurupa Valley city, California",Jurupa Valley,California,105054,105313,106982,107609,-117.4515754,33.9798472
+294,295,"Spokane Valley city, Washington",Spokane Valley,Washington,102983,103525,105796,107325,-117.2613936,47.6571104
+295,296,"Hillsboro city, Oregon",Hillsboro,Oregon,106438,106981,106916,107299,-122.989827,45.5228939
+296,297,"Davie town, Florida",Davie,Florida,105703,106024,105872,106513,-80.2331038,26.0628665
+297,298,"Green Bay city, Wisconsin",Green Bay,Wisconsin,107363,107254,106346,106095,-88.0125794,44.5126379
+298,299,"Centennial city, Colorado",Centennial,Colorado,108422,108185,107332,105865,-104.8769227,39.579155
+299,300,"Buckeye city, Arizona",Buckeye,Arizona,91535,93754,101720,105567,-112.583776,33.3703197
+300,301,"Boulder city, Colorado",Boulder,Colorado,108246,108112,104001,105485,-105.270545,40.0149856
+301,302,"Goodyear city, Arizona",Goodyear,Arizona,95288,96912,101524,105406,-112.3934809,33.4073522
+302,303,"El Monte city, California",El Monte,California,109447,109111,106918,105312,-118.036849,34.0751571
+303,304,"West Covina city, California",West Covina,California,109501,109129,106868,105013,-117.9389526,34.0686208
+304,305,"Brockton city, Massachusetts",Brockton,Massachusetts,105654,105502,105501,104826,-71.0183787,42.0834335
+305,306,"New Braunfels city, Texas",New Braunfels,Texas,90391,91621,99032,104707,-98.1257348,29.7028266
+306,307,"El Cajon city, California",El Cajon,California,106183,106126,105474,104414,-116.962526,32.7947731
+307,308,"Edinburg city, Texas",Edinburg,Texas,100269,100707,103068,104294,-98.1624501,26.3013982
+308,309,"Renton city, Washington",Renton,Washington,106836,106708,105422,104047,-122.2034496,47.4799078
+309,310,"Burbank city, California",Burbank,California,107335,107143,105291,103920,-118.307201,34.1812089
+310,311,"Inglewood city, California",Inglewood,California,107759,107384,105097,103621,-118.353132,33.9562003
+311,312,"Rialto city, California",Rialto,California,104048,104125,104305,103545,-117.3703235,34.1064001
+312,313,"Lee's Summit city, Missouri",Lee's Summit,Missouri,101122,101617,102853,103465,-94.3821295,38.9107156
+313,314,"Bend city, Oregon",Bend,Oregon,99213,99669,102428,103254,-121.3153096,44.0581728
+314,315,"South Bend city, Indiana",South Bend,Indiana,103436,103333,103161,103110,-86.2500066,41.6833813
+315,316,"Wichita Falls city, Texas",Wichita Falls,Texas,102316,102513,102786,102664,-98.5020777,33.9004572
+316,317,"St. George city, Utah",St. George,Utah,95345,96032,100180,102519,-113.5841313,37.104153
+317,318,"Fishers city, Indiana",Fishers,Indiana,99027,99456,101339,101966,-86.0138729,39.9555928
+318,319,"Carmel city, Indiana",Carmel,Indiana,99753,99898,100959,101964,-86.1189257,39.9788017
+319,320,"Vacaville city, California",Vacaville,California,102386,101806,101447,101918,-121.9877444,38.3565773
+320,321,"Quincy city, Massachusetts",Quincy,Massachusetts,101606,101462,101142,101727,-71.0037374,42.2509914
+321,322,"Conroe city, Texas",Conroe,Texas,89990,91247,95438,101405,-95.4560512,30.3118769
+322,323,"Chico city, California",Chico,California,102816,102135,100162,101299,-121.8374777,39.7284945
+323,324,"San Mateo city, California",San Mateo,California,105665,105327,102400,100984,-122.3253265,37.5629997
+324,325,"Lynn city, Massachusetts",Lynn,Massachusetts,101263,101095,100992,100891,-70.9494939,42.466763
+325,326,"Albany city, New York",Albany,New York,99233,98664,100735,100826,-73.754968,42.6511674
+326,327,"Hesperia city, California",Hesperia,California,99838,100090,100847,100744,-117.3008784,34.4263886
+327,328,"New Bedford city, Massachusetts",New Bedford,Massachusetts,101089,100987,101007,100682,-70.934205,41.6362152
+328,329,"Davenport city, Iowa",Davenport,Iowa,101728,101646,101072,100486,-90.5770967,41.5235808
+329,330,"Daly City city, California",Daly City,California,104973,104633,101482,100007,-122.47267,37.6904826
+330,331,"Fayetteville city, Arkansas",Fayetteville,Arkansas,94308,94769,97328,99285,-94.1574328,36.0625843
+331,332,"San Angelo city, Texas",San Angelo,Texas,99904,100060,99423,99112,-100.4405094,31.4649685
+332,333,"Boca Raton city, Florida",Boca Raton,Florida,97439,98242,98796,99009,-80.0830984,26.3586885
+333,334,"Longmont city, Colorado",Longmont,Colorado,98906,99181,99721,98687,-105.1019287,40.1672117
+334,335,"Norwalk city, California",Norwalk,California,102762,102410,100313,98537,-118.0849169,33.9092802
+335,335,"Suffolk city, Virginia",Suffolk,Virginia,94326,94697,96328,98537,-76.5835703,36.7282096
+336,337,"Yuma city, Arizona",Yuma,Arizona,96147,96398,97154,98527,-114.47603157249804,32.665135
+337,338,"Kenosha city, Wisconsin",Kenosha,Wisconsin,99979,99895,99270,98484,-87.8212263,42.5846773
+338,339,"Palm Coast city, Florida",Palm Coast,Florida,89251,89735,93748,98411,-81.2207673,29.5541432
+339,340,"Federal Way city, Washington",Federal Way,Washington,101025,100981,99283,97863,-122.33931,47.313494
+340,341,"Roanoke city, Virginia",Roanoke,Virginia,100015,99883,98744,97847,-79.9414313,37.270973
+341,342,"Vista city, California",Vista,California,98414,98390,98563,97766,-117.2425355,33.2000368
+342,343,"Tracy city, California",Tracy,California,93115,93413,95252,97328,-121.4201395,37.7385507
+343,344,"Deltona city, Florida",Deltona,Florida,93702,94038,95386,97267,-81.2636738,28.9005446
+344,345,"Beaverton city, Oregon",Beaverton,Oregon,97503,97495,98466,97053,-122.80378,45.4871723
+345,346,"Portsmouth city, Virginia",Portsmouth,Virginia,97915,97954,97638,97029,-76.297699,36.8320081
+346,347,"Yakima city, Washington",Yakima,Washington,96971,97055,96918,97012,-120.510842,46.601557
+347,348,"Sunrise city, Florida",Sunrise,Florida,97309,97103,96222,96306,-80.2787573,26.1666888
+348,349,"Edmond city, Oklahoma",Edmond,Oklahoma,94436,94750,95356,96286,-97.4649038,35.6571367
+349,350,"Plantation city, Florida",Plantation,Florida,91750,92050,93188,96042,-82.3728728,27.0681121
+350,351,"Fort Myers city, Florida",Fort Myers,Florida,86401,87271,93290,95949,-81.8723084,26.640628
+351,352,"Orem city, Utah",Orem,Utah,98133,98424,98150,95910,-111.6944313,40.2981599
+352,353,"Lawrence city, Kansas",Lawrence,Kansas,94930,94923,95372,95794,-95.2359496,38.9719384
+353,354,"Reading city, Pennsylvania",Reading,Pennsylvania,95100,94972,94940,94858,-75.9279495,40.335345
+354,355,"San Marcos city, California",San Marcos,California,94862,94900,93756,94854,-117.1661449,33.1433723
+355,356,"Mount Pleasant town, South Carolina",Mount Pleasant,South Carolina,90838,91092,92844,94545,-79.8625851,32.7940651
+356,357,"Bellingham city, Washington",Bellingham,Washington,91483,91871,90133,93896,-122.478836,48.7544012
+357,358,"Livonia city, Michigan",Livonia,Michigan,95526,95270,94612,93779,-83.3527097,42.36837
+358,359,"Asheville city, North Carolina",Asheville,North Carolina,94581,94390,94142,93776,-82.5528478,35.595076
+359,360,"Fall River city, Massachusetts",Fall River,Massachusetts,93984,93933,93952,93682,-71.1546367,41.7010642
+360,361,"O'Fallon city, Missouri",O'Fallon,Missouri,91347,91631,93729,93663,-90.7033292,38.7902503
+361,362,"Erie city, Pennsylvania",Erie,Pennsylvania,94849,94704,94160,93511,-80.0852695,42.1294712
+362,363,"Chino city, California",Chino,California,91387,91131,91716,93140,-117.690075,34.0133561
+363,364,"Sandy city, Utah",Sandy,Utah,97253,96921,95076,93022,-111.8953815,40.5710454
+364,365,"Roswell city, Georgia",Roswell,Georgia,92835,92939,92627,92950,-84.360022,34.02332
+365,366,"Redding city, California",Redding,California,93609,93479,93422,92906,-122.391675,40.5863563
+366,367,"Hoover city, Alabama",Hoover,Alabama,92605,92714,92627,92435,-86.78247922885197,33.3864655
+367,368,"Carson city, California",Carson,California,95553,95286,93285,92388,-118.2517547,33.8322043
+368,369,"Kirkland city, Washington",Kirkland,Washington,92166,92734,92129,92151,-122.2070775,47.6765382
+369,370,"Compton city, California",Compton,California,95712,95411,93456,91988,-118.226624,33.894927
+370,371,"Indio city, California",Indio,California,89126,89274,90528,91980,-116.2188054,33.7192808
+371,372,"Mission Viejo city, California",Mission Viejo,California,93639,93464,92436,91776,-117.659405,33.5965685
+372,373,"Avondale city, Arizona",Avondale,Arizona,89345,89564,90502,91617,-112.349602,33.4355977
+373,374,"Merced city, California",Merced,California,86370,86648,89515,91563,-120.4843269,37.3029568
+374,375,"Lawton city, Oklahoma",Lawton,Oklahoma,90387,90365,91242,91542,-98.3903305,34.6086854
+375,376,"Norwalk city, Connecticut",Norwalk,Connecticut,91187,90928,91475,91401,-73.4078968,41.1175966
+376,377,"Nashua city, New Hampshire",Nashua,New Hampshire,91335,91193,91297,91161,-71.4677032,42.7656251
+377,378,"South Gate city, California",South Gate,California,92727,92434,91012,90926,-118.200981,33.9463456
+378,379,"Hemet city, California",Hemet,California,89818,89844,90480,90689,-116.9719684,33.7475203
+379,380,"Fort Smith city, Arkansas",Fort Smith,Arkansas,89141,89147,89557,89992,-94.3996456,35.3784666
+380,381,"Santa Monica city, California",Santa Monica,California,93075,92803,91250,89947,-118.491227,34.0194704
+381,382,"Trenton city, New Jersey",Trenton,New Jersey,90860,90578,90026,89661,-74.7597219,40.2205944
+382,383,"Temple city, Texas",Temple,Texas,82072,82645,85587,89458,-97.3427847,31.098207
+383,384,"Westminster city, California",Westminster,California,90915,90786,90124,89397,-117.9859054,33.7578725
+384,385,"Champaign city, Illinois",Champaign,Illinois,88293,88358,89338,89241,-88.2430932,40.1164841
+385,386,"Greenville city, North Carolina",Greenville,North Carolina,87628,87626,88399,89233,-77.3724593,35.613224
+386,387,"Santa Fe city, New Mexico",Santa Fe,New Mexico,87503,87724,88302,89008,-105.938456,35.6876096
+387,388,"Clifton city, New Jersey",Clifton,New Jersey,90309,90054,89516,88709,-74.1637553,40.8584328
+388,389,"Waukegan city, Illinois",Waukegan,Illinois,89313,89115,88679,87976,-87.8447938,42.3636331
+389,390,"Lawrence city, Massachusetts",Lawrence,Massachusetts,89153,88876,88436,87954,-71.1631137,42.7070354
+390,391,"Bloomington city, Minnesota",Bloomington,Minnesota,89980,89844,89437,87797,-93.3204872,44.8322405
+391,392,"Bryan city, Texas",Bryan,Texas,83967,84325,85256,87792,-96.3699632,30.6743643
+392,393,"Springdale city, Arkansas",Springdale,Arkansas,87315,87312,87658,87672,-94.1288142,36.1867442
+393,394,"Santa Barbara city, California",Santa Barbara,California,88676,88676,88316,87533,-119.702667,34.4221319
+394,395,"Newton city, Massachusetts",Newton,Massachusetts,88918,88759,87799,87381,-71.2092214,42.3370414
+395,396,"Troy city, Michigan",Troy,Michigan,87300,87076,87592,87201,-83.1499304,42.6055893
+396,397,"Danbury city, Connecticut",Danbury,Connecticut,86510,86254,87105,86967,-73.4540111,41.394817
+397,398,"Manteca city, California",Manteca,California,83507,83834,85716,86928,-121.22178815385232,37.81623435
+398,399,"Franklin city, Tennessee",Franklin,Tennessee,83547,84124,85804,86895,-86.8689419,35.925206
+399,400,"Ogden city, Utah",Ogden,Utah,87343,87292,86639,86825,-111.9738429,41.2230048
+400,401,"Deerfield Beach city, Florida",Deerfield Beach,Florida,86855,86763,86512,86772,-80.0996306,26.318342
+401,402,"San Leandro city, California",San Leandro,California,90998,90707,88440,86762,-122.1560768,37.7249296
+402,403,"Mission city, Texas",Mission,Texas,85787,85848,86177,86635,-98.3252932,26.2159066
+403,404,"Duluth city, Minnesota",Duluth,Minnesota,86720,86718,86584,86619,-92.1251218,46.7729322
+404,405,"Georgetown city, Texas",Georgetown,Texas,67012,68293,75620,86507,-97.6772311,30.6326942
+405,406,"Melbourne city, Florida",Melbourne,Florida,84703,85047,86008,86441,-80.6371513,28.106471
+406,407,"Citrus Heights city, California",Citrus Heights,California,87575,87521,87111,86433,-121.2810611,38.7071247
+407,408,"San Ramon city, California",San Ramon,California,86332,86616,87023,85953,-121.9544387,37.7648021
+408,409,"Lake Forest city, California",Lake Forest,California,85862,85848,85631,85638,-117.6859213,33.6469261
+409,410,"Medford city, Oregon",Medford,Oregon,85858,85975,86634,85556,-122.8718605,42.3264181
+410,411,"Sioux City city, Iowa",Sioux City,Iowa,85781,85762,85833,85497,-96.4058782,42.4966815
+411,412,"North Port city, Florida",North Port,Florida,74798,75487,79795,85099,-82.2359254,27.044224
+412,413,"Auburn city, Washington",Auburn,Washington,87204,87059,85853,84858,-122.2301808,47.3075369
+413,414,"Kennewick city, Washington",Kennewick,Washington,83929,83981,84698,84750,-119.119919,46.2087066
+414,415,"Livermore city, California",Livermore,California,87965,87880,86388,84701,-121.768053,37.6820583
+415,416,"Hawthorne city, California",Hawthorne,California,88077,87804,86010,84563,-118.3483256,33.9188589
+416,417,"Whittier city, California",Whittier,California,87302,87006,85330,84496,-118.030839,33.9708782
+417,418,"Lehi city, Utah",Lehi,Utah,75900,76837,79917,84373,-111.8486019,40.3881114
+418,419,"Baytown city, Texas",Baytown,Texas,85541,85366,84312,84324,-94.9774274,29.7355047
+419,420,"Westland city, Michigan",Westland,Michigan,85407,85196,84678,84037,-83.4005321,42.3238056
+420,421,"Newport Beach city, California",Newport Beach,California,85235,85208,84713,83993,-117.9294401,33.6170092
+421,422,"South Jordan city, Utah",South Jordan,Utah,77486,77950,80102,83513,-111.9367107,40.5584882
+422,423,"Brooklyn Park city, Minnesota",Brooklyn Park,Minnesota,86462,86206,84467,83324,-93.3443585,45.1004807
+423,424,"Folsom city, California",Folsom,California,80463,80749,81687,83269,-121.1760583,38.6779591
+424,425,"Warwick city, Rhode Island",Warwick,Rhode Island,82825,82845,83028,83016,-71.4161108,41.7002024
+425,426,"Farmington Hills city, Michigan",Farmington Hills,Michigan,84004,83774,83368,82737,-83.3771553,42.4853125
+426,427,"Gastonia city, North Carolina",Gastonia,North Carolina,80412,80524,81359,82653,-81.1838186,35.2622654
+427,428,"Layton city, Utah",Layton,Utah,81780,82046,83417,82601,-111.9741925,41.0751048
+428,429,"Longview city, Texas",Longview,Texas,81640,81641,81553,82531,-94.74049,32.5007031
+429,430,"Largo city, Florida",Largo,Florida,82544,82484,82437,82487,-82.7873244,27.9094665
+430,431,"Johns Creek city, Georgia",Johns Creek,Georgia,82444,82575,82183,82453,-84.190196,34.0181557
+431,432,"Buena Park city, California",Buena Park,California,84016,83862,82951,82450,-117.9962165,33.870413
+432,433,"Cranston city, Rhode Island",Cranston,Rhode Island,82936,82824,82598,82421,-71.4371257,41.7809588
+433,434,"New Rochelle city, New York",New Rochelle,New York,79734,80192,81389,82288,-73.7826363,40.9115386
+434,435,"Warner Robins city, Georgia",Warner Robins,Georgia,80350,80567,81566,82175,-83.606568,32.6200973
+435,435,"Frederick city, Maryland",Frederick,Maryland,78188,78352,79889,82175,-77.4127562,39.415779
+436,437,"Cicero town, Illinois",Cicero,Illinois,85268,84928,83313,81919,-87.7540199,41.8455398
+437,438,"Homestead city, Florida",Homestead,Florida,80734,80510,80707,81562,-80.4759905,25.4718946
+438,439,"Mountain View city, California",Mountain View,California,82534,82430,81675,81059,-122.0832101,37.3893889
+439,440,"Boynton Beach city, Florida",Boynton Beach,Florida,80385,80652,80244,80859,-80.0666026,26.5256179
+440,441,"Rancho Cordova city, California",Rancho Cordova,California,79332,79503,80210,80598,-121.302728,38.5890723
+441,442,"Redwood City city, California",Redwood City,California,84303,84131,81522,80512,-122.232523,37.4863239
+442,443,"Perris city, California",Perris,California,78705,78861,79825,80263,-117.2286478,33.7825194
+443,444,"Alhambra city, California",Alhambra,California,82868,82657,81168,80259,-118.12706,34.093042
+444,445,"Castle Rock town, Colorado",Castle Rock,Colorado,73156,73881,76652,80191,-104.8586826,39.3722552
+445,446,"Pharr city, Texas",Pharr,Texas,79713,79821,79675,80179,-98.1836216,26.1947962
+446,447,"Miami Beach city, Florida",Miami Beach,Florida,82888,82458,80882,80017,-80.1353006,25.7929198
+447,448,"Auburn city, Alabama",Auburn,Alabama,76143,76624,78887,80006,-85.4807825,32.6098566
+448,449,"Kissimmee city, Florida",Kissimmee,Florida,79224,79202,79579,80003,-81.4075838,28.2918995
+449,450,"Jonesboro city, Arkansas",Jonesboro,Arkansas,78575,78852,78862,79876,-90.6949871,35.8272257
+450,451,"Flint city, Michigan",Flint,Michigan,81268,81108,80586,79854,-83.6900211,43.0161693
+451,452,"Somerville city, Massachusetts",Somerville,Massachusetts,81031,80814,80018,79762,-71.0994968,42.3875968
+452,453,"Parma city, Ohio",Parma,Ohio,81117,80949,80154,79358,-81.7355692,41.3822398
+453,454,"Pasco city, Washington",Pasco,Washington,77119,77452,78541,79315,-119.0921,46.2306739
+454,455,"Lynchburg city, Virginia",Lynchburg,Virginia,79007,78973,79118,79287,-79.1422464,37.4137536
+455,456,"Lake Charles city, Louisiana",Lake Charles,Louisiana,84936,84873,80521,79113,-93.2061609,30.2072293
+456,457,"Bloomington city, Indiana",Bloomington,Indiana,79148,79062,79342,79107,-86.5342881,39.1670396
+457,458,"Lakewood city, California",Lakewood,California,82497,82213,80473,79063,-118.117191,33.8503463
+458,459,"Bloomington city, Illinois",Bloomington,Illinois,78699,78682,78848,78864,-88.9939147,40.4797828
+459,460,"Upland city, California",Upland,California,79041,79120,79265,78841,-117.6483876,34.09751
+460,461,"Rapid City city, South Dakota",Rapid City,South Dakota,74719,74924,76723,78824,-103.2280239,44.0806041
+461,462,"Plymouth city, Minnesota",Plymouth,Minnesota,81017,80945,79820,78683,-93.46651,45.0065149
+462,463,"Woodbury city, Minnesota",Woodbury,Minnesota,75107,75472,77094,78561,-92.9339449,44.919896
+463,464,"Flower Mound town, Texas",Flower Mound,Texas,75965,76472,77532,78486,-97.0867203,33.0283854
+464,465,"Tustin city, California",Tustin,California,79967,79896,79346,78418,-117.826166,33.7458511
+465,466,"Napa city, California",Napa,California,79251,79039,78855,78315,-122.2855293,38.2971367
+466,467,"Daytona Beach city, Florida",Daytona Beach,Florida,71587,72274,75323,77958,-81.0228331,29.2108147
+467,468,"Chino Hills city, California",Chino Hills,California,78426,78468,78579,77949,-117.760056,33.9926803
+468,469,"Loveland city, Colorado",Loveland,Colorado,76365,76362,77002,77884,-105.04436132094955,40.385549
+469,470,"Milpitas city, California",Milpitas,California,80271,80127,78218,77738,-121.8989248,37.4332273
+470,471,"Cedar Park city, Texas",Cedar Park,Texas,77586,78012,78863,77642,-97.827833,30.5217116
+471,472,"Bethlehem city, Pennsylvania",Bethlehem,Pennsylvania,75795,75697,77910,77617,-75.3786521,40.6178915
+472,473,"Pittsburg city, California",Pittsburg,California,76409,76605,76662,77572,-121.8901232,38.0181745
+473,474,"Doral city, Florida",Doral,Florida,75875,76207,76167,76983,-80.3553302,25.8195424
+474,475,"Missoula city, Montana",Missoula,Montana,74131,74394,75373,76955,-113.995267,46.8701049
+475,476,"Redmond city, Washington",Redmond,Washington,73252,73348,76463,76732,-122.1238767,47.6694141
+476,477,"Wyoming city, Michigan",Wyoming,Michigan,76510,76755,76853,76726,-85.7057035,42.9132581
+477,478,"Mansfield city, Texas",Mansfield,Texas,72596,72757,74429,76724,-97.1420308,32.563487
+478,479,"Pleasanton city, California",Pleasanton,California,79856,79676,77904,76689,-121.8746789,37.6624312
+479,480,"Hammond city, Indiana",Hammond,Indiana,77855,77759,77204,76575,-87.500043,41.5833658
+480,481,"Missouri City city, Texas",Missouri City,Texas,74248,74425,75047,76500,-95.5377215,29.6185669
+481,482,"Racine city, Wisconsin",Racine,Wisconsin,77841,77685,77079,76462,-87.7825242,42.7260523
+482,483,"Bellflower city, California",Bellflower,California,79216,78975,77411,76405,-118.1167679,33.8825705
+483,484,"Schaumburg village, Illinois",Schaumburg,Illinois,78713,78443,77165,76225,-88.083406,42.0333608
+484,485,"Broomfield city, Colorado",Broomfield,Colorado,74105,74484,75375,76121,-105.05208,39.9403995
+485,486,"Alameda city, California",Alameda,California,78282,78044,76246,76040,-122.2416355,37.7652076
+486,487,"Rochester Hills city, Michigan",Rochester Hills,Michigan,76308,76119,76063,75936,-83.1499322,42.6583661
+487,488,"Flagstaff city, Arizona",Flagstaff,Arizona,76847,77090,74729,75907,-111.651822,35.1987522
+488,489,"Apple Valley town, California",Apple Valley,California,75789,75874,76158,75867,-117.1858759,34.5008311
+489,490,"Scranton city, Pennsylvania",Scranton,Pennsylvania,76336,76172,76141,75848,-75.6621294,41.4086874
+490,491,"Evanston city, Illinois",Evanston,Illinois,78104,77857,76686,75544,-87.6930459,42.0447388
+491,492,"Southfield city, Michigan",Southfield,Michigan,76604,76381,75914,75431,-83.2218731,42.4733689
+492,493,"Rock Hill city, South Carolina",Rock Hill,South Carolina,74409,74690,74743,75349,-81.0250784,34.9248667
+493,494,"Iowa City city, Iowa",Iowa City,Iowa,74823,74908,75172,75233,-91.5299106,41.6612561
+494,495,"Arlington Heights village, Illinois",Arlington Heights,Illinois,77687,77447,76153,75195,-87.9802164,42.0811563
+495,496,"Pawtucket city, Rhode Island",Pawtucket,Rhode Island,75612,75480,75277,75066,-71.3825558,41.878711
+496,497,"Bowling Green city, Kentucky",Bowling Green,Kentucky,72298,72456,73149,74926,-86.4436018,36.9903199
+497,498,"Lakeville city, Minnesota",Lakeville,Minnesota,69496,70023,72751,74553,-93.2432791,44.650051
+498,499,"Appleton city, Wisconsin",Appleton,Wisconsin,75681,75707,74856,74511,-88.4069744,44.2613967
+499,500,"Bismarck city, North Dakota",Bismarck,North Dakota,73625,73737,74083,74445,-100.783739,46.808327
+500,501,"New Britain city, Connecticut",New Britain,Connecticut,74159,73974,74581,74396,-72.7795419,41.6612104
+501,502,"Leander city, Texas",Leander,Texas,59217,60848,67093,74375,-97.8553655,30.5603086
+502,503,"Bolingbrook village, Illinois",Bolingbrook,Illinois,73948,73818,73668,74031,-88.0717708,41.7003302
+503,504,"Rocklin city, California",Rocklin,California,71598,71861,73082,73857,-121.2357828,38.7907339
+504,505,"Redlands city, California",Redlands,California,73170,73257,73538,73849,-117.1827445,34.0550328
+505,506,"Lauderhill city, Florida",Lauderhill,Florida,74479,74312,73605,73633,-87.5254649,33.2365468
+506,507,"Rogers city, Arkansas",Rogers,Arkansas,69913,70342,71436,72999,-94.1185366,36.3320197
+507,508,"Kalamazoo city, Michigan",Kalamazoo,Michigan,73570,73502,72343,72873,-85.5872286,42.291707
+508,509,"Noblesville city, Indiana",Noblesville,Indiana,69609,69909,71155,72748,-86.0085955,40.0455918
+509,510,"Johnson City city, Tennessee",Johnson City,Tennessee,71063,71118,71188,72514,-82.3534728,36.3134398
+510,511,"Greenville city, South Carolina",Greenville,South Carolina,70720,71031,72286,72310,-82.3984882,34.851354
+511,512,"Turlock city, California",Turlock,California,72692,72694,72216,72309,-120.8465941,37.4946568
+512,513,"Marysville city, Washington",Marysville,Washington,70714,70972,71363,72275,-122.1768209,48.0517429
+513,514,"Gulfport city, Mississippi",Gulfport,Mississippi,72923,72872,72220,72236,-89.0928155,30.3674198
+514,515,"Ankeny city, Iowa",Ankeny,Iowa,67901,68363,70452,72222,-93.605092,41.7320796
+515,516,"Dublin city, California",Dublin,California,72588,72524,71516,72060,-121.9357918,37.7021521
+516,517,"Tamarac city, Florida",Tamarac,Florida,71903,71906,71706,71912,-80.2497707,26.2128609
+517,518,"Lake Elsinore city, California",Lake Elsinore,California,70244,70333,71505,71898,-117.3272615,33.6680772
+518,519,"Blaine city, Minnesota",Blaine,Minnesota,70221,70466,71008,71739,-93.2349489,45.1607987
+519,520,"Mount Vernon city, New York",Mount Vernon,New York,73905,73552,72801,71714,-73.8386504,40.9125085
+520,521,"Harlingen city, Texas",Harlingen,Texas,71824,71874,72095,71678,-97.6960599,26.1907543
+521,522,"Wilmington city, Delaware",Wilmington,Delaware,70893,70847,70823,71569,-75.546589,39.7459468
+522,523,"Lafayette city, Indiana",Lafayette,Indiana,70790,70738,70902,71402,-86.8752869,40.4167022
+523,524,"Dothan city, Alabama",Dothan,Alabama,71050,71081,71033,71235,-85.3933906,31.2237434
+524,525,"St. Charles city, Missouri",St. Charles,Missouri,70539,70738,71048,71184,-90.481677,38.783855
+525,526,"Apex town, North Carolina",Apex,North Carolina,64180,65355,68368,71065,-78.8505516,35.7325352
+526,527,"Eastvale city, California",Eastvale,California,69752,69966,71341,71024,-117.566541,33.9747067
+527,528,"Camden city, New Jersey",Camden,New Jersey,71777,71741,71558,70996,-75.1198911,39.9448402
+528,529,"Framingham city, Massachusetts",Framingham,Massachusetts,72381,72136,71289,70963,-71.4165905,42.2773177
+529,530,"West Des Moines city, Iowa",West Des Moines,Iowa,68726,68912,69886,70741,-93.7594059,41.5644476
+530,531,"Queen Creek town, Arizona",Queen Creek,Arizona,59516,60895,66318,70734,-111.634158,33.2483858
+531,532,"Tulare city, California",Tulare,California,68910,69255,70788,70693,-119.3473421,36.2077351
+532,533,"North Richland Hills city, Texas",North Richland Hills,Texas,69911,70286,70259,70663,-97.2289029,32.8342952
+533,534,"St. Joseph city, Missouri",St. Joseph,Missouri,72481,72141,71411,70656,-94.8466322,39.7686055
+534,535,"Maple Grove city, Minnesota",Maple Grove,Minnesota,70264,70289,70606,70582,-93.4419222,45.0984983
+535,536,"Waukesha city, Wisconsin",Waukesha,Wisconsin,71162,71177,70723,70454,-88.2314813,43.0116784
+536,537,"Jacksonville city, North Carolina",Jacksonville,North Carolina,72735,72642,70631,70420,-77.4208221,34.7494749
+537,538,"San Marcos city, Texas",San Marcos,Texas,67690,68128,69215,70301,-97.9405828,29.8826436
+538,539,"Camarillo city, California",Camarillo,California,70740,70830,70904,70282,-119.0383541,34.2176371
+539,540,"Eau Claire city, Wisconsin",Eau Claire,Wisconsin,69433,69497,69106,69737,-91.4984941,44.811349
+540,541,"Canton city, Ohio",Canton,Ohio,70836,70696,70227,69671,-81.3749508,40.7985464
+541,542,"St. Cloud city, Minnesota",St. Cloud,Minnesota,68882,68866,69051,69568,-94.1642004,45.5616075
+542,543,"Bayonne city, New Jersey",Bayonne,New Jersey,71687,71601,69446,69527,-74.1143091,40.6687141
+543,544,"Baldwin Park city, California",Baldwin Park,California,72176,71971,70561,69455,-117.9611761,34.0854739
+544,545,"Shawnee city, Kansas",Shawnee,Kansas,67310,67439,67667,69198,-94.7202376,39.0416718
+545,546,"Passaic city, New Jersey",Passaic,New Jersey,70534,70325,69744,69128,-74.1284764,40.8567663
+546,547,"Decatur city, Illinois",Decatur,Illinois,70901,70717,69919,69097,-88.9524151,39.8454163
+547,548,"Yuba City city, California",Yuba City,California,70118,69949,69505,69014,-121.6169108,39.1404477
+548,549,"Walnut Creek city, California",Walnut Creek,California,70112,70039,69863,68969,-122.0618702,37.9020731
+549,550,"Gaithersburg city, Maryland",Gaithersburg,Maryland,69656,69496,69175,68952,-77.1929215,39.1399187
+550,551,"Redondo Beach city, California",Redondo Beach,California,71560,71333,69898,68918,-118.3886766,33.8455911
+551,552,"Schenectady city, New York",Schenectady,New York,67050,68361,68992,68809,-73.9395687,42.8142432
+552,553,"East Orange city, New Jersey",East Orange,New Jersey,69620,69374,68889,68446,-74.2048677,40.767323
+553,554,"Portland city, Maine",Portland,Maine,68409,68492,68484,68424,-70.2572642,43.6592687
+554,555,"Jackson city, Tennessee",Jackson,Tennessee,68224,68203,67908,68380,-88.8177418,35.6144446
+555,556,"Madera city, California",Madera,California,66229,66461,67865,68050,-120.0594685,36.9622745
+556,557,"Grand Junction city, Colorado",Grand Junction,Colorado,65574,65685,66820,68034,-108.5507317,39.063956
+557,558,"Gary city, Indiana",Gary,Indiana,69086,69002,68529,67972,-87.3370647,41.6020962
+558,559,"Idaho Falls city, Idaho",Idaho Falls,Idaho,65586,65885,67147,67723,-112.03628,43.4887907
+559,560,"Weston city, Florida",Weston,Florida,68113,67998,67477,67677,-80.399513,26.1003392
+560,561,"Conway city, Arkansas",Conway,Arkansas,64149,64345,65965,67617,-92.4421011,35.0886963
+561,562,"Eagan city, Minnesota",Eagan,Minnesota,68861,68736,68720,67534,-93.1659179,44.818173
+562,563,"Alpharetta city, Georgia",Alpharetta,Georgia,65811,65960,66221,67267,-84.2747329,34.0709576
+563,564,"Lodi city, California",Lodi,California,66336,66443,67023,67258,-121.2724473,38.1301968
+564,565,"Albany city, Georgia",Albany,Georgia,69652,69102,66314,67192,-84.1556809,31.5782062
+565,566,"Haverhill city, Massachusetts",Haverhill,Massachusetts,67774,67668,67399,67153,-71.0767724,42.7777829
+566,567,"Yorba Linda city, California",Yorba Linda,California,68318,68330,67925,67089,-117.8249705,33.8901096
+567,568,"Davis city, California",Davis,California,66858,66760,67066,67048,-121.744583,38.545379
+568,569,"Union City city, California",Union City,California,70140,69985,68363,67039,-122.0816297,37.5963232
+569,570,"Delray Beach city, Florida",Delray Beach,Florida,66847,66809,66653,67030,-80.0728201,26.4614625
+570,571,"Ames city, Iowa",Ames,Iowa,66426,66481,67005,66950,-93.6170448,42.0267567
+571,572,"Rockville city, Maryland",Rockville,Maryland,67126,67354,67234,66924,-77.1516844,39.0817985
+572,573,"Waterloo city, Iowa",Waterloo,Iowa,67320,67269,66912,66562,-92.3328743,42.498275
+573,574,"Novi city, Michigan",Novi,Michigan,66237,66154,66581,66372,-83.4754913,42.48059
+574,575,"Maricopa city, Arizona",Maricopa,Arizona,58143,58851,62446,66290,-112.047755,33.058129
+575,576,"Brentwood city, California",Brentwood,California,64290,64463,64931,66127,-121.696026,37.9317766
+576,577,"Commerce City city, Colorado",Commerce City,Colorado,62425,62776,64423,66115,-104.9338675,39.8083196
+577,578,"Palo Alto city, California",Palo Alto,California,68586,68385,66735,66010,-122.1598465,37.4443293
+578,579,"Oshkosh city, Wisconsin",Oshkosh,Wisconsin,66802,66770,65377,65948,-88.5408574,44.0206919
+579,580,"Caldwell city, Idaho",Caldwell,Idaho,60077,60645,63881,65920,-116.689415,43.6678736
+580,581,"Janesville city, Wisconsin",Janesville,Wisconsin,65615,65667,65851,65911,-89.0226793,42.6829765
+581,582,"Sammamish city, Washington",Sammamish,Washington,67458,67440,66725,65845,-122.0416844,47.6017554
+582,583,"Pflugerville city, Texas",Pflugerville,Texas,65177,65484,66481,65556,-97.6200043,30.4393696
+583,584,"Skokie village, Illinois",Skokie,Illinois,67822,67711,66526,65497,-87.7333972,42.0333694
+584,585,"Palatine village, Illinois",Palatine,Illinois,67899,67696,66505,65485,-88.0336888,42.1105779
+585,586,"Ocala city, Florida",Ocala,Florida,63587,63793,64286,65478,-82.1400923,29.1871986
+586,587,"Greenwood city, Indiana",Greenwood,Indiana,63832,63980,64897,65406,-86.1066526,39.6136578
+587,588,"Medford city, Massachusetts",Medford,Massachusetts,59666,60414,62163,65399,-71.1061639,42.4184296
+588,589,"Victoria city, Texas",Victoria,Texas,65529,65521,65185,65372,-96.9848646,28.8202926
+589,590,"Union City city, New Jersey",Union City,New Jersey,68631,68130,65848,65366,-74.0237512,40.7795455
+590,591,"Lorain city, Ohio",Lorain,Ohio,65214,65224,65343,65365,-82.1781904,41.4673238
+591,592,"Rowlett city, Texas",Rowlett,Texas,62551,62776,63762,65113,-96.56388,32.9029017
+592,593,"Muncie city, Indiana",Muncie,Indiana,65197,65099,65150,65076,-85.3865271,40.1936892
+593,594,"Port Orange city, Florida",Port Orange,Florida,62622,62728,63279,64870,-80.9968286,29.1386874
+594,595,"Malden city, Massachusetts",Malden,Massachusetts,66261,66011,65136,64712,-71.066163,42.4250964
+595,596,"North Little Rock city, Arkansas",North Little Rock,Arkansas,64600,64660,64169,64627,-92.2670941,34.769536
+596,597,"Cheyenne city, Wyoming",Cheyenne,Wyoming,65131,65220,65066,64610,-104.820246,41.139981
+597,598,"St. Cloud city, Florida",St. Cloud,Florida,58950,59419,62128,64489,-81.2839038,28.2498534
+598,599,"Lynwood city, California",Lynwood,California,67256,66815,64824,64086,-118.2024154,33.924831
+599,600,"Utica city, New York",Utica,New York,65287,65160,64597,64081,-75.2326641,43.1009031
+600,601,"Waltham city, Massachusetts",Waltham,Massachusetts,65213,65046,64393,64065,-71.2358004,42.3756401
+601,602,"Kenner city, Louisiana",Kenner,Louisiana,66471,66298,65397,64007,-90.2417806,29.9942265
+602,603,"Burnsville city, Minnesota",Burnsville,Minnesota,64324,64512,64029,63936,-93.2773887,44.7670567
+603,604,"Laguna Niguel city, California",Laguna Niguel,California,64347,64226,64140,63742,-117.7075526,33.5225261
+604,605,"South San Francisco city, California",South San Francisco,California,66097,66124,64361,63484,-122.4168664,37.6535403
+605,606,"San Clemente city, California",San Clemente,California,64282,64257,63842,63457,-117.6124179,33.4270275
+606,607,"Moore city, Oklahoma",Moore,Oklahoma,62806,63047,63070,63223,-97.4867045,35.3383254
+607,608,"Sanford city, Florida",Sanford,Florida,61082,61096,61090,63154,-81.2680223,28.8117345
+608,609,"Huntersville town, North Carolina",Huntersville,North Carolina,61376,61572,61909,63035,-80.8429304,35.4108278
+609,610,"Millcreek city, Utah",Millcreek,Utah,63890,63668,64228,63034,-111.855583,40.6992918
+610,611,"Bellevue city, Nebraska",Bellevue,Nebraska,64215,64322,63885,63015,-95.9124686,41.1434547
+611,612,"Porterville city, California",Porterville,California,62629,62666,62788,62998,-119.0167679,36.06523
+612,613,"Hamilton city, Ohio",Hamilton,Ohio,63386,63404,63088,62937,-84.5613428,39.3995067
+613,614,"Hendersonville city, Tennessee",Hendersonville,Tennessee,61792,62114,62392,62896,-86.621443,36.3049177
+614,615,"Richland city, Washington",Richland,Washington,60568,60878,62115,62821,-119.275205,46.2804298
+615,616,"Coon Rapids city, Minnesota",Coon Rapids,Minnesota,63624,63581,63472,62785,-93.3023898,45.1728923
+616,617,"Bossier City city, Louisiana",Bossier City,Louisiana,62719,62703,62960,62635,-93.6952689,32.5369356
+617,618,"Marietta city, Georgia",Marietta,Georgia,61052,61026,61386,62602,-84.5496148,33.9528472
+618,619,"Lakewood city, Washington",Lakewood,Washington,63609,63612,63429,62572,-122.518458,47.1717649
+619,620,"Eden Prairie city, Minnesota",Eden Prairie,Minnesota,64198,64172,63105,62476,-93.470786,44.8546856
+620,621,"Council Bluffs city, Iowa",Council Bluffs,Iowa,62792,62789,62592,62405,-95.8519484,41.258841
+621,622,"Taylor city, Michigan",Taylor,Michigan,63392,63223,62709,62258,-83.2696509,42.240872
+622,623,"Chapel Hill town, North Carolina",Chapel Hill,North Carolina,61965,56624,61295,62098,-79.05578,35.9131542
+623,624,"Dearborn Heights city, Michigan",Dearborn Heights,Michigan,63291,63116,62584,61980,-83.2732627,42.3369816
+624,625,"La Habra city, California",La Habra,California,63118,63096,62599,61978,-117.9454867,33.9316066
+625,626,"Pontiac city, Michigan",Pontiac,Michigan,61601,61821,62086,61854,-83.2910468,42.6389216
+626,627,"Santa Cruz city, California",Santa Cruz,California,62968,62885,54941,61800,-122.0294673,36.9743626
+627,628,"Woodland city, California",Woodland,California,61047,61051,61538,61462,-121.7733285,38.6786109
+628,629,"Wellington village, Florida",Wellington,Florida,61620,61575,61349,61438,-80.2414357,26.6586779
+629,630,"Springfield city, Oregon",Springfield,Oregon,61843,61834,61866,61400,-123.0220289,44.0462362
+630,631,"Encinitas city, California",Encinitas,California,62002,61988,61768,61369,-117.2919818,33.0369867
+631,632,"Bristol city, Connecticut",Bristol,Connecticut,60845,60776,61138,61330,-72.9464859,41.6735209
+632,633,"Parker town, Colorado",Parker,Colorado,58526,58878,60488,61222,-104.7612638,39.5184514
+633,634,"Jupiter town, Florida",Jupiter,Florida,61036,61115,61065,61126,-80.0942087,26.9342246
+634,635,"Stonecrest city, Georgia",Stonecrest,Georgia,59190,59265,59998,61087,-84.1358505,33.6831296
+635,636,"Corvallis city, Oregon",Corvallis,Oregon,59909,59934,60263,60956,-123.2620435,44.5645659
+636,637,"Wylie city, Texas",Wylie,Texas,57530,57888,59461,60943,-96.5388038,33.0151561
+637,638,"Montebello city, California",Montebello,California,62623,62410,61125,60569,-118.111975,34.0159398
+638,639,"Vineland city, New Jersey",Vineland,New Jersey,60780,60631,60563,60491,-75.0254256,39.4862777
+639,640,"Great Falls city, Montana",Great Falls,Montana,60464,60431,60347,60382,-111.29189,47.5048851
+640,641,"La Mesa city, California",La Mesa,California,61119,61070,60733,60360,-117.0230839,32.7678288
+641,642,"Meriden city, Connecticut",Meriden,Connecticut,60830,60619,60437,60242,-72.8070435,41.5381535
+642,643,"Palm Beach Gardens city, Florida",Palm Beach Gardens,Florida,59174,59237,59529,60175,-80.1386547,26.8233946
+643,644,"Euless city, Texas",Euless,Texas,61028,61073,60521,60169,-97.0667142473263,32.8457865
+644,645,"Owensboro city, Kentucky",Owensboro,Kentucky,60206,60238,60035,60037,-87.1133304,37.7742152
+645,646,"Casa Grande city, Arizona",Casa Grande,Arizona,53660,54119,57400,60032,-111.757352,32.8795022
+646,647,"San Rafael city, California",San Rafael,California,61277,61130,60814,59971,-122.5310874,37.9735346
+647,648,"Taunton city, Massachusetts",Taunton,Massachusetts,59400,59470,59701,59922,-71.0931485,41.9019257
+648,649,"Madison city, Alabama",Madison,Alabama,56965,57294,58328,59785,-86.7511427,34.6928726
+649,650,"Pico Rivera city, California",Pico Rivera,California,62079,61890,60696,59781,-118.096735,33.9830688
+650,651,"Shoreline city, Washington",Shoreline,Washington,58601,58805,58081,59690,-122.3437497,47.7564667
+651,652,"Kokomo city, Indiana",Kokomo,Indiana,59603,59573,59657,59671,-86.1336351,40.4864444
+652,653,"Blue Springs city, Missouri",Blue Springs,Missouri,58613,58770,59460,59518,-94.282265,39.017316
+653,654,"White Plains city, New York",White Plains,New York,59553,59441,59551,59316,-73.7629097,41.0339862
+654,655,"Burlington city, North Carolina",Burlington,North Carolina,57306,57589,58756,59287,-79.4377991,36.0956918
+655,656,"Herriman city, Utah",Herriman,Utah,55178,56210,58155,59179,-112.0329086,40.5139784
+656,657,"Youngstown city, Ohio",Youngstown,Ohio,60056,59896,59175,59144,-80.6520161,41.1035786
+657,658,"Santee city, California",Santee,California,60047,59952,59296,59051,-116.9739167,32.8383828
+658,659,"West Allis city, Wisconsin",West Allis,Wisconsin,60334,60252,59496,58950,-88.0070315,43.0166806
+659,660,"Lake Havasu City city, Arizona",Lake Havasu City,Arizona,57134,57369,58181,58926,-114.322449,34.4838502
+660,661,"North Miami city, Florida",North Miami,Florida,60195,59839,59063,58906,-94.8796767,36.9172916
+661,662,"Dubuque city, Iowa",Dubuque,Iowa,59669,59642,59251,58873,-90.6647985,42.5006243
+662,663,"Gardena city, California",Gardena,California,61022,60875,59721,58843,-118.3053037,33.8963593
+663,664,"Grand Forks city, North Dakota",Grand Forks,North Dakota,59170,59140,58676,58692,-97.0592028,47.9078244
+664,665,"Petaluma city, California",Petaluma,California,59778,59776,59589,58652,-122.60612241304348,38.270022
+665,666,"Lenexa city, Kansas",Lenexa,Kansas,57417,57547,58530,58617,-94.7845837,38.9697458
+666,667,"Des Plaines city, Illinois",Des Plaines,Illinois,60673,60482,59495,58594,-87.8873916,42.0415823
+667,668,"Monterey Park city, California",Monterey Park,California,61109,60891,59586,58554,-118.129807,34.051522
+668,669,"Lacey city, Washington",Lacey,Washington,56185,56619,57167,58552,-122.8072257,47.0263876
+669,670,"Casper city, Wyoming",Casper,Wyoming,59090,59299,58763,58543,-106.325138,42.8501191
+670,671,"Revere city, Massachusetts",Revere,Massachusetts,62204,61867,59517,58528,-71.0119948,42.4084302
+671,672,"St. Peters city, Missouri",St. Peters,Missouri,57731,57703,58215,58523,-90.5958468,38.791612
+672,673,"Hanford city, California",Hanford,California,58013,58098,58468,58470,-119.63351305957447,36.338612499999996
+673,674,"Terre Haute city, Indiana",Terre Haute,Indiana,58412,58387,58346,58335,-87.4139119,39.4667025
+674,675,"Hempstead village, New York",Hempstead,New York,59170,58855,58691,58331,-73.6190736,40.6736812
+675,676,"Margate city, Florida",Margate,Florida,58700,58599,58127,58209,-80.206436,26.2445263
+676,677,"Carson City, Nevada",Carson City,Nevada,58644,58683,58796,58130,-119.7575628,39.1698022
+677,678,"Springfield city, Ohio",Springfield,Ohio,58651,58590,58533,58106,-83.810138,39.9234046
+678,679,"Gilroy city, California",Gilroy,California,59532,59383,58115,58005,-121.5631723,37.0065078
+679,680,"Midwest City city, Oklahoma",Midwest City,Oklahoma,58406,58461,58146,57950,-97.3967025,35.4495097
+680,681,"Brookhaven city, Georgia",Brookhaven,Georgia,56795,56807,57074,57934,-84.340203,33.8584368
+681,682,"Decatur city, Alabama",Decatur,Alabama,57946,57757,57605,57922,-87.05791872812708,34.6240205
+682,683,"Taylorsville city, Utah",Taylorsville,Utah,60435,60367,59251,57879,-111.9388027,40.6676347
+683,684,"Bentonville city, Arkansas",Bentonville,Arkansas,54210,54808,56936,57868,-94.2088172,36.3728538
+684,685,"Cupertino city, California",Cupertino,California,60363,60157,58578,57856,-122.0322895,37.3228934
+685,686,"St. Clair Shores city, Michigan",St. Clair Shores,Michigan,58874,58725,58247,57742,-82.8890965,42.4969652
+686,687,"Pocatello city, Idaho",Pocatello,Idaho,56326,56433,57242,57730,-112.450627,42.8620287
+687,688,"Hoboken city, New Jersey",Hoboken,New Jersey,60057,59912,58165,57703,-74.0323752,40.7433066
+688,689,"Orland Park village, Illinois",Orland Park,Illinois,58730,58567,57982,57511,-87.8536288,41.630663
+689,690,"Royal Oak city, Michigan",Royal Oak,Michigan,58202,58023,57826,57495,-83.1446485,42.4894801
+690,691,"Kyle city, Texas",Kyle,Texas,45697,46442,51838,57470,-97.877174,29.9892816
+691,692,"Lancaster city, Pennsylvania",Lancaster,Pennsylvania,58051,57937,57646,57453,-76.3056686,40.03813
+692,693,"Weymouth Town city, Massachusetts",Weymouth Town,Massachusetts,57443,57461,57655,57410,-70.944418,42.20542
+693,694,"Sarasota city, Florida",Sarasota,Florida,54840,55182,56160,57376,-82.5308545,27.3365805
+694,695,"Coconut Creek city, Florida",Coconut Creek,Florida,57828,57722,57248,57348,-80.1789351,26.2517482
+695,696,"Bowie city, Maryland",Bowie,Maryland,58335,58234,57724,57192,-76.7301718,38.9424464
+696,697,"Kettering city, Ohio",Kettering,Ohio,57868,57823,57557,57027,-84.1688274,39.6895036
+697,698,"Apopka city, Florida",Apopka,Florida,54889,54903,55616,57017,-81.511398,28.678013
+698,699,"Bradenton city, Florida",Bradenton,Florida,55713,55812,56309,56961,-82.5748194,27.4989278
+699,700,"Albany city, Oregon",Albany,Oregon,56464,56670,56932,56891,-123.1059324,44.6365071
+700,701,"Bartlett city, Tennessee",Bartlett,Tennessee,57789,57759,57395,56798,-89.8739753,35.2045329
+701,702,"Coeur d'Alene city, Idaho",Coeur d'Alene,Idaho,54640,54938,56145,56733,-116.7811531,47.6742994
+702,703,"Highland city, California",Highland,California,56996,57034,57115,56705,-117.1807973,34.11213
+703,704,"Smyrna town, Tennessee",Smyrna,Tennessee,53089,53489,55525,56516,-86.5199492,35.9824598
+704,705,"Bonita Springs city, Florida",Bonita Springs,Florida,53638,53852,54852,56370,-81.7786972,26.339806
+705,706,"Southaven city, Mississippi",Southaven,Mississippi,54647,54841,55565,56360,-90.0034862,34.9873822
+706,707,"Beaumont city, California",Beaumont,California,53045,53523,55271,56349,-116.9763092,33.9299925
+707,708,"Oak Lawn village, Illinois",Oak Lawn,Illinois,58370,58169,57158,56286,-87.7581081,41.7108662
+708,709,"Smyrna city, Georgia",Smyrna,Georgia,55905,55867,56009,56160,-84.5147454,33.883887
+709,710,"Kingsport city, Tennessee",Kingsport,Tennessee,55441,55413,55603,56150,-82.5594293,36.550238
+710,711,"Bozeman city, Montana",Bozeman,Montana,53317,53611,55146,56123,-111.044047,45.6794293
+711,712,"New Brunswick city, New Jersey",New Brunswick,New Jersey,55252,55289,56299,55998,-74.4518173,40.4862174
+712,713,"DeSoto city, Texas",DeSoto,Texas,56135,56078,55760,55968,-96.8570183,32.5897831
+713,714,"Marana town, Arizona",Marana,Arizona,51897,52612,54672,55962,-111.215709,32.4446988
+714,715,"Fountain Valley city, California",Fountain Valley,California,57054,56967,56440,55930,-117.9627349,33.7038145
+715,716,"Spring Hill city, Tennessee",Spring Hill,Tennessee,50689,51299,54122,55800,-86.9300023,35.751179
+716,717,"Tigard city, Oregon",Tigard,Oregon,54816,55015,55896,55762,-122.771933,45.4307473
+717,718,"Olympia city, Washington",Olympia,Washington,55371,55607,55950,55669,-122.8950075,47.0451022
+718,719,"Texas City city, Texas",Texas City,Texas,51895,52271,54283,55667,-94.9175485,29.396013
+719,720,"Port Arthur city, Texas",Port Arthur,Texas,56030,56000,56137,55579,-93.9288723,29.8988618
+720,721,"National City city, California",National City,California,56172,56115,55927,55550,-117.0991967,32.6781085
+721,722,"San Jacinto city, California",San Jacinto,California,53894,54064,55287,55470,-116.9589086,33.7839664
+722,723,"Kannapolis city, North Carolina",Kannapolis,North Carolina,53119,53442,54499,55448,-80.621438,35.4874708
+723,724,"Apple Valley city, Minnesota",Apple Valley,Minnesota,56367,56267,55860,55416,-93.21772,44.7319094
+724,725,"Perth Amboy city, New Jersey",Perth Amboy,New Jersey,55444,55382,55462,55357,-74.2745215,40.5200187
+725,725,"Little Elm city, Texas",Little Elm,Texas,46459,47194,51238,55357,-96.9375051,33.1626194
+726,727,"Anderson city, Indiana",Anderson,Indiana,54773,54749,54922,55099,-85.6802541,40.1053196
+727,728,"Valdosta city, Georgia",Valdosta,Georgia,55387,55415,55168,55074,-83.2784851,30.8327022
+728,729,"West Sacramento city, California",West Sacramento,California,53919,53914,53983,55064,-121.530234,38.5804609
+729,730,"Winter Haven city, Florida",Winter Haven,Florida,50203,50595,52711,55024,-81.7328568,28.0222435
+730,731,"Berwyn city, Illinois",Berwyn,Illinois,57234,57012,55935,55021,-87.7936685,41.8505874
+731,732,"West Haven city, Connecticut",West Haven,Connecticut,55581,55432,55176,55004,-72.9470471,41.2706527
+732,733,"Chicopee city, Massachusetts",Chicopee,Massachusetts,55562,55443,55228,54980,-72.6071119,42.1487691
+733,734,"Arcadia city, California",Arcadia,California,56664,56466,55334,54857,-118.0401497,34.1362075
+734,735,"Mount Prospect village, Illinois",Mount Prospect,Illinois,56852,56711,55691,54843,-87.9372908,42.0664167
+735,736,"Logan city, Utah",Logan,Utah,52783,52808,54434,54680,-111.834914,41.7313063
+736,737,"Westfield city, Indiana",Westfield,Indiana,46425,46998,50702,54605,-86.1274888,40.0428151
+737,738,"Plainfield city, New Jersey",Plainfield,New Jersey,54598,54344,55006,54513,-74.4073737,40.6337136
+738,739,"Yucaipa city, California",Yucaipa,California,54552,54586,54713,54420,-117.0430865,34.033625
+739,740,"Twin Falls city, Idaho",Twin Falls,Idaho,51811,52079,53497,54300,-114.4602554,42.5704456
+740,741,"Tinley Park village, Illinois",Tinley Park,Illinois,56001,55837,54991,54287,-87.7844944,41.5733669
+741,742,"Eagle Mountain city, Utah",Eagle Mountain,Utah,43614,44609,49657,54149,-112.0119825,40.3093488
+742,743,"Kentwood city, Michigan",Kentwood,Michigan,54309,54274,54197,54077,-85.6447492,42.8694731
+743,744,"Rocky Mount city, North Carolina",Rocky Mount,North Carolina,54334,54312,53941,54013,-77.7956949,35.9423833
+744,745,"Colton city, California",Colton,California,53892,53970,54272,53918,-117.3136547,34.0739016
+745,746,"Peabody city, Massachusetts",Peabody,Massachusetts,54492,54388,54140,53896,-70.9286609,42.5278731
+746,747,"Pensacola city, Florida",Pensacola,Florida,54310,54468,53963,53876,-87.2169149,30.421309
+747,748,"Manhattan city, Kansas",Manhattan,Kansas,54103,54144,54406,53829,-96.5716694,39.1836082
+748,749,"Elkhart city, Indiana",Elkhart,Indiana,53913,53857,53871,53801,-85.9766671,41.6819935
+749,750,"Pinellas Park city, Florida",Pinellas Park,Florida,53094,53372,53304,53653,-82.6995444,27.8428025
+750,751,"Burleson city, Texas",Burleson,Texas,47633,47991,51493,53381,-97.3208492,32.5420821
+751,752,"Methuen Town city, Massachusetts",Methuen Town,Massachusetts,53037,52985,52882,53241,-71.158709,42.750523
+752,753,"Galveston city, Texas",Galveston,Texas,53699,53651,53348,53089,-94.7945882,29.299328
+753,754,"Wheaton city, Illinois",Wheaton,Illinois,53920,53800,53412,52984,-88.1101709,41.8646959
+754,755,"Elyria city, Ohio",Elyria,Ohio,52664,52676,52778,52908,-82.1073583,41.3673191
+755,756,"Diamond Bar city, California",Diamond Bar,California,55070,54896,53763,52855,-117.8103367,34.0286226
+756,757,"Normal town, Illinois",Normal ,Illinois,52746,52749,52821,52838,-88.9843937,40.5092961
+757,758,"Mooresville town, North Carolina",Mooresville,North Carolina,50240,50502,51695,52656,-80.8100724,35.5848596
+758,759,"Huntington Park city, California",Huntington Park,California,54883,54712,53584,52633,-118.2120343,33.9827043
+759,760,"Oak Park village, Illinois",Oak Park,Illinois,54580,54396,53360,52553,-87.7887615,41.8878145
+760,761,"Minnetonka city, Minnesota",Minnetonka,Minnesota,53794,54083,53200,52544,-93.4638936,44.9405086
+761,762,"Lincoln city, California",Lincoln,California,49747,49817,50658,52534,-121.34239205792437,38.859829500000004
+762,763,"Joplin city, Missouri",Joplin,Missouri,51765,51800,51957,52518,-94.5133385,37.0841838
+763,764,"Grand Island city, Nebraska",Grand Island,Nebraska,53130,53017,52473,52513,-98.338685,40.924271
+764,765,"Cathedral City city, California",Cathedral City,California,51498,51569,52230,52494,-116.464076,33.7810031
+765,766,"Edina city, Minnesota",Edina,Minnesota,53487,53367,53339,52437,-93.3501222,44.8897027
+766,767,"Dunwoody city, Georgia",Dunwoody,Georgia,51667,51614,51025,52201,-84.3342686,33.9463786
+767,768,"Novato city, California",Novato,California,53206,53100,52904,52184,-122.5681191,38.1061979
+768,769,"Battle Creek city, Michigan",Battle Creek,Michigan,52709,52651,52462,52123,-85.1824269,42.3192548
+769,770,"West New York town, New Jersey",West New York,New Jersey,52906,52544,52431,51981,-74.0093129,40.7856117
+770,771,"Placentia city, California",Placentia,California,51814,51723,51236,51951,-117.8617337,33.8714814
+771,772,"Paramount city, California",Paramount,California,53748,53578,52485,51653,-118.171005,33.898917
+772,773,"Summerville town, South Carolina",Summerville,South Carolina,50973,51084,51337,51617,-80.1762704,33.0186699
+773,774,"Collierville town, Tennessee",Collierville,Tennessee,51321,51411,51529,51594,-89.6645266,35.042036
+774,775,"Palm Desert city, California",Palm Desert,California,51167,51200,51591,51583,-116.382571,33.7288179
+775,776,"Watsonville city, California",Watsonville,California,52595,52506,52017,51525,-121.7529071,36.9092773
+776,777,"Florissant city, Missouri",Florissant,Missouri,52532,52441,52041,51506,-90.3227803,38.7919683
+777,778,"Rockwall city, Texas",Rockwall,Texas,47307,47734,49753,51461,-96.4597089,32.9312336
+778,779,"La Crosse city, Wisconsin",La Crosse,Wisconsin,52682,52665,51002,51380,-91.2514355,43.8122836
+779,780,"Columbus city, Indiana",Columbus,Indiana,50498,50496,50792,51268,-85.9213796,39.2014405
+780,781,"Middletown city, Ohio",Middletown,Ohio,50998,51031,51080,51229,-84.3982763,39.5150576
+781,782,"Grapevine city, Texas",Grapevine,Texas,50636,50765,50911,51226,-97.0788754,32.9337381
+782,783,"Aliso Viejo city, California",Aliso Viejo,California,52173,52205,51901,51221,-117.7258122,33.5761376
+783,784,"Harrisonburg city, Virginia",Harrisonburg,Virginia,51810,51706,51526,51158,-78.8688833,38.4493315
+784,785,"Wake Forest town, North Carolina",Wake Forest,North Carolina,47855,48249,49899,51113,-78.5103731,35.9803138
+785,786,"Jeffersonville city, Indiana",Jeffersonville,Indiana,49450,49563,50397,51030,-85.7371604,38.2770227
+786,787,"Mishawaka city, Indiana",Mishawaka,Indiana,51095,51044,50994,50913,-86.1807031,41.6611642
+787,788,"Troy city, New York",Troy,New York,51414,51337,51216,50895,-73.6917878,42.7284117
+788,789,"Delano city, California",Delano,California,51420,49852,50668,50843,-119.2470536,35.7688425
+789,790,"Glendora city, California",Glendora,California,52577,52497,51592,50824,-117.865339,34.1361187
+790,791,"Burien city, Washington",Burien,Washington,52065,51985,51201,50806,-122.3485274,47.469918
+791,792,"Newark city, Ohio",Newark,Ohio,49936,50003,50324,50763,-82.4012643,40.0581205
+792,793,"Draper city, Utah",Draper,Utah,51024,51024,51381,50731,-111.8627989,40.5247777
+793,794,"Hoffman Estates village, Illinois",Hoffman Estates,Illinois,52545,52402,51478,50682,-88.0792782,42.0427256
+794,795,"Cuyahoga Falls city, Ohio",Cuyahoga Falls,Ohio,51120,51050,50863,50655,-81.4848086,41.1348213
+795,796,"Enid city, Oklahoma",Enid,Oklahoma,51294,51169,50546,50499,-97.8791341,36.3967623
+796,797,"Milford city (balance), Connecticut",Milford,Connecticut,50567,50467,50486,50471,-73.0570603,41.2222218
+797,798,"Harrisburg city, Pennsylvania",Harrisburg,Pennsylvania,50088,50092,50236,50183,-76.8861122,40.2663107
+798,799,"Rosemead city, California",Rosemead,California,51187,51082,50221,49791,-118.0879763,34.0676169
+799,800,"Lakewood city, Ohio",Lakewood,Ohio,50929,50809,50250,49658,-81.7981908,41.4819932
+800,801,"Covina city, California",Covina,California,51275,51173,50370,49489,-117.8891164,34.0877926
+801,802,"Murray city, Utah",Murray,Utah,50641,50520,49734,49463,-111.888417,40.6667841
+802,803,"Downers Grove village, Illinois",Downers Grove,Illinois,50225,50126,49742,49354,-88.0102281,41.7936822
+803,804,"Cypress city, California",Cypress,California,50144,50171,49858,49243,-118.0399368,33.8248235
+804,805,"St. Louis Park city, Minnesota",St. Louis Park,Minnesota,50005,50021,49244,48827,-93.3569023,44.9475726
+805,806,"Azusa city, California",Azusa,California,50265,50154,49289,48824,-117.9056046,34.1338751

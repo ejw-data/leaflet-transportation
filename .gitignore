@@ -1,3 +1,12 @@
+# Mac Hidden file
+.DS_Store
+
+# Google drive pc hidden file
+desktop.ini 
+
+# external access
+config.py
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]

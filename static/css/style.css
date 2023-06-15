@@ -1,0 +1,40 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+#map,
+body,
+html {
+    height: 100%;
+}
+
+#input {
+    position: fixed;
+    bottom: 0;
+    left: 0px;
+    width: 96%;
+    border: 3px solid 6#4b21ad;
+    z-index: 1000;
+    margin: 1%;
+    padding: 1%;
+    background-color: azure;
+}
+
+#input label {
+    margin-right: 5px;
+    padding-top: 0 4px;
+    padding-left: 50px
+}
+
+#input input {
+    width:200px;
+    background-color: bisque;
+    padding: 0 4px;
+}
+
+.header {
+    text-align: center;
+    margin-top: 0;
+    padding-top: 0;
+}
