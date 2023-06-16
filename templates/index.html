@@ -23,19 +23,36 @@
 </head>
 
 <body>
-    <div id="map"></div>
-    <div id="input">
-        <h3 class="header">QUERY PARAMETERS</h3>
-        <form>
-            <label for="mdist">MAX DISTANCE:</label>
-            <input type="text" id="mdist" name="mdist">
-            <label for="mpop">MIN POPULATION:</label>
-            <input type="text" id="mpop" name="mpop">
-            <label for="cpop">MIN COMBINED POPULATION:</label>
-            <input type="text" id="cpop" name="cpop">
+    <div id="mySidebar" class="sidebar">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <form onSubmit="return raceForm()">
+            <label for="startState">Start State:</label><br>
+            <select name="startState" id="startState" value="Select"></select><br>
+            <label for="startCity">Start City:</label><br>
+            <select name="startCity" id="startCity" value="Select"></select><br>
+            <label for="endState">End State:</label><br>
+            <select name="endState" id="endState" value="Select"></select><br>
+            <label for="endCity">End City:</label><br>
+            <select name="endCity" id="endCity" value="Select"></select><br>
+            <input class="button-4" type="submit" value="Submit">
         </form>
     </div>
-
+    <div id="main">
+        <button class="openbtn" onclick="openNav()">☰ Race</button>
+        <div id="map"></div>
+        <div id="input">
+            <h3 class="header">QUERY PARAMETERS</h3>
+            <form>
+                <label for="mdist">MAX DISTANCE:</label>
+                <input type="text" id="mdist" name="mdist">
+                <label for="mpop">MIN POPULATION:</label>
+                <input type="text" id="mpop" name="mpop">
+                <label for="cpop">MIN COMBINED POPULATION:</label>
+                <input type="text" id="cpop" name="cpop">
+            </form>
+        </div>
+    </div>
+    <script src="./static/js/sidebar.js"></script>
     <script src="./static/js/map.js"></script>
 </body>
 

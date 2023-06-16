@@ -145,7 +145,7 @@ function haversine(dest1, dest2){
     let deltaLon = (dest1.long - dest2.long)*Math.PI/180
 
     let a = Math.sin(deltaLat/2)**2 + Math.cos(lat1)*Math.cos(lat2)*Math.sin(deltaLon/2)**2
-    let c = 2*Math.atan(Math.sqrt(a),Math.sqrt(1-a))
+    let c = 2*Math.atan2(Math.sqrt(a),Math.sqrt(1-a))
     let d = R*c
 
     return d
