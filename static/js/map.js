@@ -63,59 +63,73 @@ d3.json("/api/v1.0/population/2022").then(data => {
 // Original path of data
 // d3.json("./static/data/city_locations_records.json").then(data => {
 
-// UPdated path of data
-d3.json("/api/v1.0/population/2022").then(data => {    
+// // Updated path of data
+// d3.json("/api/v1.0/population/2022").then(data => {    
     
-    let city_list = data.map(i => i.City);
+//     let city_list = data.map(i => i.City);
 
-    let pairs_list=[];
-    let distance;
-    let point1;
-    let point2;
+//     let pairs_list=[];
+//     let distance;
+//     let point1;
+//     let point2;
 
-    city_list.forEach(element1 => { 
-        city_list.forEach(element2 => {
-            if(element1 == element2){
-                //skip
-            }
-            else {
-                let loc1 = data.filter(i => i.City == element1)[0];
-                let loc2 = data.filter(i => i.City == element2)[0];
-                let population1 = loc1['2022']
-                let population2 = loc2['2022']
+//     city_list.forEach(element1 => { 
+//         city_list.forEach(element2 => {
+//             if(element1 == element2){
+//                 //skip
+//             }
+//             else {
+//                 let loc1 = data.filter(i => i.City == element1)[0];
+//                 let loc2 = data.filter(i => i.City == element2)[0];
+//                 let population1 = loc1['2022']
+//                 let population2 = loc2['2022']
 
-                distance = haversine(loc1, loc2)
-                point1 = [loc1.lat, loc1.long]
-                point2 = [loc2.lat, loc2.long]
-                pairs_list.push({"city1":element1, "city2":element2, "distance":distance, "point1": point1, "point2":point2, 'population1':population1, 'population2':population2})
-            }
-        })
+//                 distance = haversine(loc1, loc2)
+//                 point1 = [loc1.lat, loc1.long]
+//                 point2 = [loc2.lat, loc2.long]
+//                 pairs_list.push({"city1":element1, "city2":element2, "distance":distance, "point1": point1, "point2":point2, 'population1':population1, 'population2':population2})
+//             }
+//         })
         
-    });
-    console.log(pairs_list)
+//     });
+//     console.log(pairs_list)
 
-    let initMinDist = 200;
+    let initMaxDist = 200;
     let initMinPop = 400000;
     let initComPop = 600000;
 
-    d3.select('#mdist').attr("value", initMinDist);
-    d3.select('#cpop').attr("value", initMinPop);
-    d3.select('#mpop').attr("value", initComPop);
+    d3.select('#mdist').attr("value", initMaxDist);
+    d3.select('#mpop').attr("value", initMinPop);
+    d3.select('#cpop').attr("value", initComPop);
     
 
-    connectCities(pairs_list, 200, 400000, 600000)
+    // connectCities(pairs_list, 200, 400000, 600000)
+    connectCities(200, 400000, 600000)
 
     inputSelect = d3.select('#input')
     inputSelect.on('change', updateParams)
 
 
-    function connectCities(cities, dist, pop, combined){
-        cities.forEach(elem =>{
-            if( (elem.distance < dist) && (elem.population1 > pop) && ((elem.population1 + elem.population2)>combined) ){
-                L.polyline([elem.point1, elem.point2],{color:'blue'}).addTo(layers.QUERY)
-            }
+    // function connectCities(cities, dist, pop, combined){
+    //     cities.forEach(elem =>{
+    //         if( (elem.distance < dist) && (elem.population1 > pop) && ((elem.population1 + elem.population2)>combined) ){
+    //             L.polyline([elem.point1, elem.point2],{color:'blue'}).addTo(layers.QUERY)
+    //         }
+    //     })
+    // }
+
+    function connectCities(dist, pop, combined){
+        d3.json(`/api/v1.0/${dist}/${pop}/${combined}`).then(data => {  
+            console.log('Pairs ',data)
+            data.forEach(elem => {
+
+                if(elem != null){
+                    L.polyline([elem.point1, elem.point2],{color:'blue'}).addTo(layers.QUERY)
+                }
+            })
         })
     }
+    
 
     function updateParams(){
         let maxDistance = d3.select('#mdist').property("value");
@@ -123,14 +137,10 @@ d3.json("/api/v1.0/population/2022").then(data => {
         let minPopulation= d3.select('#mpop').property("value");
 
         layers.QUERY.clearLayers()
-        connectCities(pairs_list, maxDistance, minPopulation, combinedPopulation)
+        // connectCities(pairs_list, maxDistance, minPopulation, combinedPopulation)
+        connectCities(maxDistance, minPopulation, combinedPopulation)
     }
     
-
-
-
-
-});
 
 
 

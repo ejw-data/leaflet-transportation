@@ -20,6 +20,7 @@ Base.prepare(engine, reflect=True)
 
 # Save reference to the table
 Population = Base.classes.population
+Distance = Base.classes.distance
 
 #################################################
 # Flask Setup
@@ -90,6 +91,21 @@ def names():
     print(all_cities)
     return all_cities
 
+@app.route("/api/v1.0/<dist>/<mpop>/<cpop>")
+def distances(dist, mpop, cpop):
+    session = Session(engine)
+
+    results = session.query(Distance.distance, Distance.population1, Distance.population2, (Distance.population1+Distance.population2), Distance.point1, Distance.point2).filter(Distance.distance <= dist).filter(Distance.population1 >= mpop).all()
+
+    paired_data=[]
+    for d, pop1, pop2, sumval, pt1, pt2 in results:
+        ## if statement added because doing this filtering in sqlalchemy is difficult
+        if sumval >= int(cpop):
+            paired_data.append({'distance':d, 'population1':pop1, 'population2':pop2, 'point1':eval(pt1), 'point2':eval(pt2)})
+
+    session.close()
+
+    return paired_data
 # @app.route("/api/v1.0/boundaries")
 # def boundary():
 #     with open("./static/data/allData_reduced.geojson") as file:
