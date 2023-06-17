@@ -12,7 +12,7 @@ html {
     height: 100%;
 }
 
-#input {
+/* #input {
     position: fixed;
     bottom: 0;
     left: 0px;
@@ -22,7 +22,7 @@ html {
     margin: 1%;
     padding: 1%;
     background-color: azure;
-}
+} */
 
 .sidebar input {
     margin-top: 2px;
@@ -30,7 +30,7 @@ html {
     width:165px;
 }
 
-#input label {
+/* #input label {
     margin-right: 5px;
     padding-top: 0 4px;
     padding-left: 50px
@@ -40,7 +40,7 @@ html {
     width:200px;
     background-color: bisque;
     padding: 0 7px;
-}
+} */
 
 .header {
     text-align: center;
