@@ -8,6 +8,7 @@ let layers = {
 const map = L.map('map',{
     center: [39.81118194836357, -98.55296954848511],
     zoom: 5,
+    zoomControl: false,
     layers: [
         layers.PLANES,
         layers.TRAINS,
@@ -30,9 +31,15 @@ let overlays = {
   "QUERY": layers.QUERY
 }
 
-L.control.layers(null, overlays, {collapsed:false}).addTo(map);
+L.control.layers(
+        null, 
+        overlays, 
+        {collapsed:false}
+    ).addTo(map);
 
-
+L.control.zoom({
+    position: 'bottomright'
+}).addTo(map);
 // Original file path
 // d3.json("./static/data/city_locations_records.json").then(data => {
 

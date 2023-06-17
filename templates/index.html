@@ -25,22 +25,36 @@
 <body>
     <div id="mySidebar" class="sidebar">
         <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div>
+            <h3 class="header">CITY PARAMETERS</h3>
+            <form>
+                <label for="mdist">MAX DISTANCE:</label>
+                <input type="text" id="mdist" name="mdist"><br>
+                <label for="mpop">MIN POPULATION:</label>
+                <input type="text" id="mpop" name="mpop"><br>
+                <label for="cpop">MIN COMBINED POPULATION:</label>
+                <input type="text" id="cpop" name="cpop">
+            </form>
+        </div>
+        <h3 class="header">RACE PARAMETERS</h3>
         <form onSubmit="return raceForm()">
-            <label for="startState">Start State:</label><br>
+            <label for="startState">START STATE:</label><br>
             <select name="startState" id="startState" value="Select"></select><br>
-            <label for="startCity">Start City:</label><br>
+            <label for="startCity">START CITY:</label><br>
             <select name="startCity" id="startCity" value="Select"></select><br>
-            <label for="endState">End State:</label><br>
+            <label for="endState">END STATE:</label><br>
             <select name="endState" id="endState" value="Select"></select><br>
-            <label for="endCity">End City:</label><br>
+            <label for="endCity">END CITY:</label><br>
             <select name="endCity" id="endCity" value="Select"></select><br>
             <input class="button-4" type="submit" value="Submit">
         </form>
     </div>
     <div id="main">
-        <button class="openbtn" onclick="openNav()">☰ Race</button>
+
+        <button id="sidebarBttn" class="openbtn" onclick="openNav()">☰ &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Settings</button>
         <div id="map"></div>
-        <div id="input">
+
+        <!-- <div id="input">
             <h3 class="header">QUERY PARAMETERS</h3>
             <form>
                 <label for="mdist">MAX DISTANCE:</label>
@@ -50,7 +64,7 @@
                 <label for="cpop">MIN COMBINED POPULATION:</label>
                 <input type="text" id="cpop" name="cpop">
             </form>
-        </div>
+        </div> -->
     </div>
     <script src="./static/js/sidebar.js"></script>
     <script src="./static/js/map.js"></script>
