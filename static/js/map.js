@@ -21,36 +21,28 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 	}).addTo(map);
 
 
-setIcons()
-map.on('zoomend', setIcons)
-
 let overlays = {
-  "PLANES": layers.PLANES,
-  "TRAINS": layers.TRAINS,
-  "CITIES": layers.CITIES,
-  "QUERY": layers.QUERY
+    "PLANES": layers.PLANES,
+    "TRAINS": layers.TRAINS,
+    "CITIES": layers.CITIES,
+    "QUERY": layers.QUERY
 }
 
 L.control.layers(
-        null, 
-        overlays, 
-        {collapsed:false}
-    ).addTo(map);
+            null, 
+            overlays, 
+            {collapsed:false})
+         .addTo(map);
 
 L.control.zoom({
-    position: 'bottomright'
-}).addTo(map);
+            position: 'bottomright'})
+         .addTo(map);
 
 // Updated file path - original was './static/data/city_locations_records.json'
 d3.json("/api/v1.0/population/2022").then(data => {
-
-    // console.log(data)
-
     for (let i = 0; i < data.length; i++ ){
-
-      message = `<h3>City: ${data[i].City}</h3>
+       message = `<h3>City: ${data[i].City}</h3>
                  <h3>Population: ${data[i]['2022']}</h3>`
-
        new L.circle([data[i].lat, data[i].long], data[i]['2022']/25, {
                 color:'red',
                 fillColor: 'red',
@@ -59,7 +51,6 @@ d3.json("/api/v1.0/population/2022").then(data => {
             .bindPopup(message)
             .openPopup()
             .addTo(layers.CITIES) 
-
     }
 });
 
@@ -79,7 +70,7 @@ inputSelect.on('change', updateParams)
 
 function connectCities(dist, pop, combined){
     d3.json(`/api/v1.0/${dist}/${pop}/${combined}`).then(data => {  
-        console.log('Pairs ',data)
+        // console.log('Pairs ',data)
         data.forEach(elem => {
 
             if(elem != null){
@@ -98,61 +89,3 @@ function updateParams(){
     layers.QUERY.clearLayers()
     connectCities(maxDistance, minPopulation, combinedPopulation)
 }
-    
-
-function setIcons() {
-    let currentZoom = map.getZoom();
-    console.log(currentZoom)
-
-    layers.TRAINS.clearLayers()
-    layers.PLANES.clearLayers()
-
-    let trainCorrection;
-    let planeCorrection
-
-    if(currentZoom >= 12){
-        trainCorrection = 45;
-        planeCorrection = 25;
-    }
-    else if(currentZoom >= 7){
-        trainCorrection= 43;
-        planeCorrection = 25;
-    }        
-    else if(currentZoom >= 5){  
-        trainCorrection= 30;
-        planeCorrection = 14;
-    }
-    else if(currentZoom >= 3){ 
-        trainCorrection= 18;
-        planeCorrection = 10;
-    }
-    else{
-            trainCorrection = 14;
-            planeCorrection = 8;
-    }
-
-    let trainIcon = L.icon({
-            iconUrl: './static/icons/train.png',
-            iconSize:     [currentZoom/trainCorrection*195, currentZoom/trainCorrection*195],
-            iconAnchor:   [currentZoom/planeCorrection*100, currentZoom/planeCorrection*100],
-            popupAnchor:  [currentZoom/trainCorrection*120,currentZoom/trainCorrection*-30]
-            }
-        );
-
-    let planeIcon = L.icon({
-            iconUrl: './static/icons/plane.png',
-            iconSize:     [currentZoom/planeCorrection*125, currentZoom/planeCorrection*125],
-            iconAnchor:   [currentZoom/planeCorrection*100, currentZoom/planeCorrection*100],
-            popupAnchor:  [currentZoom/planeCorrection*25, currentZoom/planeCorrection*-30]
-        }
-    );
-    L.marker([41.8255616, -87.6844212], {icon: trainIcon})
-                .bindPopup('Train in progress')
-                .addTo(layers.TRAINS);
-
-    L.marker([41.8755616, -87.6244212], {icon: planeIcon})
-                .bindPopup('Plane in flight')
-                .addTo(layers.PLANES);
-
-    
-};

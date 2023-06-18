@@ -13,7 +13,7 @@ function closeNav() {
 
 // Sidebar submit button clicked
 function raceForm(){
-    alert('Hello')
+    race()
     return false;
 }
 

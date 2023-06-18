@@ -72,7 +72,6 @@ def states():
         all_states.append(state[0])
 
     session.close()
-    print(all_states)
     return all_states
 
 
@@ -88,7 +87,6 @@ def names():
         all_cities.append({'state':state, 'city':city})
 
     session.close()
-    print(all_cities)
     return all_cities
 
 @app.route("/api/v1.0/<dist>/<mpop>/<cpop>")
@@ -106,6 +104,39 @@ def distances(dist, mpop, cpop):
     session.close()
 
     return paired_data
+
+@app.route("/api/v1.0/city/<city1>/<state1>/<city2>/<state2>")
+def pairs(city1, state1, city2, state2):
+    session = Session(engine)
+
+    results = session.query(Distance.distance, Distance.point1, Distance.point2)\
+        .filter(Distance.city1 == city1)\
+        .filter(Distance.state1 == state1)\
+        .filter(Distance.city2 == city2)\
+        .filter(Distance.state2 == state2)\
+        .all()
+
+    d, pt1, pt2 = results[0]
+
+    data = {'distance':d, 'point1':eval(pt1), 'point2':eval(pt2)}
+
+    session.close()
+
+    return jsonify(data)
+
+@app.route("/api/v1.0/<state>/<city>")
+def city_location(state, city):
+    session = Session(engine)
+
+    results = session.query(Population.state, Population.city, Population.lat, Population.lon).filter(Population.state == state).filter(Population.city == city).all()
+  
+    sta, cit, lat, lon = results[0]
+        
+    data = {'state':sta, 'city':cit, 'lat':lat, 'lon':lon}
+
+    session.close()
+
+    return jsonify(data)
 # @app.route("/api/v1.0/boundaries")
 # def boundary():
 #     with open("./static/data/allData_reduced.geojson") as file:

@@ -36,18 +36,20 @@
                 <input type="text" id="cpop" name="cpop">
             </form>
         </div>
-        <h3 class="header">RACE PARAMETERS</h3>
-        <form onSubmit="return raceForm()">
-            <label for="startState">START STATE:</label><br>
-            <select name="startState" id="startState" value="Select"></select><br>
-            <label for="startCity">START CITY:</label><br>
-            <select name="startCity" id="startCity" value="Select"></select><br>
-            <label for="endState">END STATE:</label><br>
-            <select name="endState" id="endState" value="Select"></select><br>
-            <label for="endCity">END CITY:</label><br>
-            <select name="endCity" id="endCity" value="Select"></select><br>
-            <input class="button-4" type="submit" value="Submit">
-        </form>
+        <div id="raceForm">
+            <h3 class="header">RACE PARAMETERS</h3>
+            <form onSubmit="return raceForm()">
+                <label for="startState">START STATE:</label><br>
+                <select name="startState" id="startState" value="Select"></select><br>
+                <label for="startCity">START CITY:</label><br>
+                <select name="startCity" id="startCity" value="Select"></select><br>
+                <label for="endState">END STATE:</label><br>
+                <select name="endState" id="endState" value="Select"></select><br>
+                <label for="endCity">END CITY:</label><br>
+                <select name="endCity" id="endCity" value="Select"></select><br>
+                <input id="raceBttn" class="button-4" type="submit" value="Submit">
+            </form>
+        </div>
     </div>
     <div id="main">
 
@@ -66,8 +68,10 @@
             </form>
         </div> -->
     </div>
-    <script src="./static/js/sidebar.js"></script>
-    <script src="./static/js/map.js"></script>
+    <script type="text/javascript" src="./static/js/MovingMarker.js"></script>
+    <script type="text/javascript" src="./static/js/sidebar.js"></script>
+    <script type="text/javascript" src="./static/js/map.js"></script>
+    <script type="text/javascript" src="./static/js/race.js"></script>
 </body>
 
 </html>
