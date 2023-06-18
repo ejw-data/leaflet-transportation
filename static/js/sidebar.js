@@ -17,8 +17,6 @@ function raceForm(){
     return false;
 }
 
-
-
 // Create dropdowns 
 sidebarDropDown('#startState', '#startCity')
 sidebarDropDown('#endState', '#endCity')

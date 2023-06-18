@@ -20,7 +20,6 @@ L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
 		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 	}).addTo(map);
 
-
 let overlays = {
     "PLANES": layers.PLANES,
     "TRAINS": layers.TRAINS,
@@ -67,7 +66,6 @@ connectCities(200, 400000, 600000)
 let inputSelect = d3.select('#input')
 inputSelect.on('change', updateParams)
 
-
 function connectCities(dist, pop, combined){
     d3.json(`/api/v1.0/${dist}/${pop}/${combined}`).then(data => {  
         // console.log('Pairs ',data)
@@ -80,7 +78,6 @@ function connectCities(dist, pop, combined){
     })
 }
     
-
 function updateParams(){
     let maxDistance = d3.select('#mdist').property("value");
     let combinedPopulation= d3.select('#cpop').property("value");

@@ -1,69 +1,45 @@
-// setIcons()
-// map.on('zoomend', setIcons)
+let currentZoom = map.getZoom();
 
-// function setIcons() {
-//     let currentZoom = map.getZoom();
-//     // console.log(currentZoom)
+layers.TRAINS.clearLayers()
+layers.PLANES.clearLayers()
 
-//     layers.TRAINS.clearLayers()
-//     layers.PLANES.clearLayers()
+let trainCorrection;
+let planeCorrection
 
-//     let trainCorrection;
-//     let planeCorrection
+if(currentZoom >= 12){
+    trainCorrection = 45;
+    planeCorrection = 25;
+}
+else if(currentZoom >= 7){
+    trainCorrection= 43;
+    planeCorrection = 25;
+}        
+else if(currentZoom >= 5){  
+    trainCorrection= 30;
+    planeCorrection = 14;
+}
+else if(currentZoom >= 3){ 
+    trainCorrection= 18;
+    planeCorrection = 10;
+}
+else{
+        trainCorrection = 14;
+        planeCorrection = 8;
+}
 
-//     if(currentZoom >= 12){
-//         trainCorrection = 45;
-//         planeCorrection = 25;
-//     }
-//     else if(currentZoom >= 7){
-//         trainCorrection= 43;
-//         planeCorrection = 25;
-//     }        
-//     else if(currentZoom >= 5){  
-//         trainCorrection= 30;
-//         planeCorrection = 14;
-//     }
-//     else if(currentZoom >= 3){ 
-//         trainCorrection= 18;
-//         planeCorrection = 10;
-//     }
-//     else{
-//             trainCorrection = 14;
-//             planeCorrection = 8;
-//     }
-
-//     let trainIcon = L.icon({
-//             iconUrl: './static/icons/train.png',
-//             iconSize:     [currentZoom/trainCorrection*195, currentZoom/trainCorrection*195],
-//             iconAnchor:   [currentZoom/planeCorrection*100, currentZoom/planeCorrection*100],
-//             popupAnchor:  [currentZoom/trainCorrection*120,currentZoom/trainCorrection*-30]
-//             }
-//         );
-
-//     let planeIcon = L.icon({
-//             iconUrl: './static/icons/plane.png',
-//             iconSize:     [currentZoom/planeCorrection*125, currentZoom/planeCorrection*125],
-//             iconAnchor:   [currentZoom/planeCorrection*100, currentZoom/planeCorrection*100],
-//             popupAnchor:  [currentZoom/planeCorrection*25, currentZoom/planeCorrection*-30]
-//         }
-//     );
-// }
 let trainIcon = L.icon({
-        iconUrl: './static/icons/train.png',
-        iconSize:     [19.5, 19.5],
-        iconAnchor:   [10.0, 10.0],
-        popupAnchor:  [12.0, -3.0]
-        }
-    );
+    iconUrl: './static/icons/train.png',
+    iconSize:     [currentZoom/trainCorrection*195, currentZoom/trainCorrection*195],
+    // iconAnchor:   [currentZoom/planeCorrection*100, currentZoom/planeCorrection*100],
+    popupAnchor:  [currentZoom/trainCorrection*120,currentZoom/trainCorrection*-30]
+});
 
 let planeIcon = L.icon({
-        iconUrl: './static/icons/plane.png',
-        iconSize:     [25, 25],
-        iconAnchor:   [20, 20],
-        popupAnchor:  [6, -6]
-        }
-    )
-
+    iconUrl: './static/icons/plane.png',
+    iconSize:     [currentZoom/planeCorrection*125, currentZoom/planeCorrection*125],
+    // iconAnchor:   [currentZoom/planeCorrection*100, currentZoom/planeCorrection*100],
+    popupAnchor:  [currentZoom/planeCorrection*25, currentZoom/planeCorrection*-30]
+});
 
 function race(){
     let startState = d3.select("#startState").property("value")
@@ -106,22 +82,29 @@ function race(){
         layers.TRAINS.clearLayers()
         layers.PLANES.clearLayers()
 
-        L.circle(L.latLng(start), BEDistanceMeters,{'color':'blue',
-                                            'opacity':0.25,
-                                            'fillColor':'blue',
-                                            'fillOpacity':0.25}).addTo(layers.TRAINS);
-        L.circle(L.latLng(start), BEDistanceMeters,{'color':'blue',
-                                            'opacity':0.25,
-                                            'fillColor':'blue',
-                                            'fillOpacity':0.25}).addTo(layers.PLANES);
+        L.circle(L.latLng(start), 
+                    BEDistanceMeters,
+                    {'color':'blue',
+                    'opacity':0.25,
+                    'fillColor':'blue',
+                    'fillOpacity':0.25}
+                ).addTo(layers.TRAINS);
+
+        L.circle(L.latLng(start), 
+                    BEDistanceMeters,
+                    {'color':'blue',
+                    'opacity':0.25,
+                    'fillColor':'blue',
+                    'fillOpacity':0.25}
+                ).addTo(layers.PLANES);
 
         let markerTrain = L.Marker.movingMarker([start,end],[trainTime], {icon: trainIcon})
             .bindPopup('Train in progress')
             .addTo(layers.TRAINS);
 
         let markerPlane = L.Marker.movingMarker([start,end],[planeTime], {icon: planeIcon})
-                .bindPopup('Plane in flight')
-                .addTo(layers.PLANES);
+            .bindPopup('Plane in flight')
+            .addTo(layers.PLANES);
 
         markerTrain.start(); 
         setTimeout(function(){markerPlane.start()},airportWait*conversion);   // 2 hour airpoint checkin time 
