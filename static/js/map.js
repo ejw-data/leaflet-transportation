@@ -1,9 +1,19 @@
 let layers = {
+    TRACKS: new L.LayerGroup(),
     PLANES: new L.LayerGroup(),
     TRAINS: new L.LayerGroup(),
     CITIES: new L.LayerGroup(),
     QUERY: new L.LayerGroup()
 }
+
+let openstreetMap = L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+	});
+
+let topographMap = L.tileLayer('https://{s}.tile.opentopomap.org/{z}/{x}/{y}.png', {
+		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
+	});
+
 
 const map = L.map('map',{
     center: [39.81118194836357, -98.55296954848511],
@@ -12,23 +22,24 @@ const map = L.map('map',{
     layers: [
         layers.PLANES,
         layers.TRAINS,
-        layers.CITIES
+        layers.CITIES, 
+        topographMap
     ]
 })
 
-L.tileLayer('https://tile.openstreetmap.org/{z}/{x}/{y}.png', {
-		attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
-	}).addTo(map);
+let basemaps = {'STREET': openstreetMap, 'TOPOGRAPHY': topographMap}
+    
 
 let overlays = {
     "PLANES": layers.PLANES,
     "TRAINS": layers.TRAINS,
     "CITIES": layers.CITIES,
+    "TRACKS": layers.TRACKS,
     "QUERY": layers.QUERY
 }
 
 L.control.layers(
-            null, 
+            basemaps, 
             overlays, 
             {collapsed:false})
          .addTo(map);
@@ -86,3 +97,17 @@ function updateParams(){
     layers.QUERY.clearLayers()
     connectCities(maxDistance, minPopulation, combinedPopulation)
 }
+
+
+var amtrakRoutes= "static/data/amtrak-track-simple.json";
+  d3.json(amtrakRoutes).then(function(amtrak) {
+    var tracks = L.geoJSON(amtrak.features,{
+      style: function(){
+        return {
+          color: "black",
+          weight: 1.5,
+          opacity: 0.8
+        };
+      }
+    }).addTo(layers.TRACKS);
+  });

@@ -51,4 +51,5 @@ US Census
 </figure>
 
 **References:**  
-https://github.com/ewoken/Leaflet.MovingMarker
+https://github.com/ewoken/Leaflet.MovingMarker   
+https://github.com/datanews/amtrak-geojson
