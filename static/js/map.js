@@ -1,5 +1,5 @@
 let layers = {
-    TRACKS: new L.LayerGroup(),
+    AMTRAK: new L.LayerGroup(),
     PLANES: new L.LayerGroup(),
     TRAINS: new L.LayerGroup(),
     CITIES: new L.LayerGroup(),
@@ -27,14 +27,14 @@ const map = L.map('map',{
     ]
 })
 
-let basemaps = {'STREET': openstreetMap, 'TOPOGRAPHY': topographMap}
+let basemaps = {'TOPOGRAPHY': topographMap, 'STREET': openstreetMap}
     
 
 let overlays = {
     "PLANES": layers.PLANES,
     "TRAINS": layers.TRAINS,
     "CITIES": layers.CITIES,
-    "TRACKS": layers.TRACKS,
+    "AMTRAK": layers.AMTRAK,
     "QUERY": layers.QUERY
 }
 
@@ -109,5 +109,5 @@ var amtrakRoutes= "static/data/amtrak-track-simple.json";
           opacity: 0.8
         };
       }
-    }).addTo(layers.TRACKS);
+    }).addTo(layers.AMTRAK);
   });

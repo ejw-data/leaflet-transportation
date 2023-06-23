@@ -380,6 +380,12 @@ html {
     animation-duration: 1.5s;
 }
 
+ul li {
+    padding: 2px 4px;
+    line-height: 20px;
+    font-size:14px;
+}
+
 @keyframes fade {
     from {
         opacity: .4
