@@ -50,6 +50,13 @@ US Census
 <figcaption>Fig.1 - Main page with the expanded sidebar visible.</figcaption>
 </figure>
 
-**References:**  
+<br>
+
+**References:**    
 https://github.com/ewoken/Leaflet.MovingMarker   
-https://github.com/datanews/amtrak-geojson
+https://github.com/datanews/amtrak-geojson  
+
+
+**Image References:**    
+Photo by <a href="https://unsplash.com/ja/@pixeldan?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Daniel Abadia</a> on <a href="https://unsplash.com/photos/Njq3Nz6-5rQ?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+    

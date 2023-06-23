@@ -200,4 +200,199 @@ html {
 }
 
 
-/* ********************************************* */
+/* On load popup */
+
+*,
+*:before,
+*:after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* body {
+    background-color: #0f72e5;
+} */
+
+.popup {
+    background-color: #ffffff;
+    width: calc(80vw); 
+    padding: 30px 30px;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    display: none;
+    text-align: center;
+    z-index: 10000000;
+}
+
+.popup button {
+    position: absolute;
+    top: 0px;
+    right: 5px;
+    padding: 8px 12px;
+    display: block;
+    margin: 0 0 2px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    z-index: 1000000000;
+}
+
+.popup p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+
+.popup .filler {
+    visibility: hidden;
+}
+
+.popup .overlay {
+    position:absolute;
+    top:20px;
+    left:15px;
+}
+/* 
+.popup a {
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0f72e5;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+} */
+
+/*  Slideshow */
+* {
+    box-sizing: border-box
+}
+
+/* Slideshow container */
+.slideshow-container {
+    max-width: 2000px;
+    position: relative;
+    margin: auto;
+}
+
+/* Hide the images by default */
+.mySlides {
+    display: none;
+}
+
+/* Next & previous buttons */
+.slideshow-container .prev,
+.slideshow-container .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    margin-top: -22px;
+    padding: 16px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+}
+
+/* Position the "next button" to the right */
+.slideshow-container .next {
+    right: -20px;
+    border-radius: 3px 0 0 3px;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+.slideshow-container .prev {
+    left: -20px;
+    border-radius: 3px 0 0 3px;
+    background-color: rgba(0, 0, 0, 0.8)
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.slideshow-container .prev:hover,
+.slideshow-container .next:hover {
+    background-color: rgba(116, 116, 116, 0.8);
+}
+
+/* Caption text */
+.text {
+    color: #f2f2f2;
+    font-size: 15px;
+    padding: 8px 12px;
+    position: absolute;
+    bottom: 7%;
+    width: 100%;
+    text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+    color: #f2f2f2;
+    font-size: 12px;
+    padding: 8px 12px;
+    position: absolute;
+    top: 0;
+}
+
+.dotBox {
+    position: absolute;
+    left:0;
+    right:0;
+    bottom: 2%;
+    width: 100px;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+    cursor: pointer;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+}
+
+.active,
+.dot:hover {
+    background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+}
+
+@keyframes fade {
+    from {
+        opacity: .4
+    }
+
+    to {
+        opacity: 1
+    }
+}
+
+.splitscreen {
+    width: 50%;
+    float: left;
+    padding: 25px;
+    /* border: 2px solid red; */
+}
